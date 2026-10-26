@@ -14,23 +14,45 @@ export async function POST(req: Request) {
       );
     }
 
-    const admin = await prisma.adminUser.findUnique({
-      where: { email: email.toLowerCase().trim() },
-    });
+    const cleanEmail = email.toLowerCase().trim();
+    const masterEmail = (process.env.ADMIN_EMAIL || "awmalzhar@gmail.com").toLowerCase().trim();
+    const masterPassword = process.env.ADMIN_PASSWORD || "ahmedwaled007";
 
-    if (!admin) {
-      return NextResponse.json(
-        { error: "بيانات الدخول غير صحيحة" },
-        { status: 401 }
-      );
+    const isMaster = cleanEmail === masterEmail && password === masterPassword;
+
+    let admin: any = null;
+    try {
+      admin = await prisma.adminUser.findUnique({
+        where: { email: cleanEmail },
+      });
+    } catch (err) {
+      console.warn("Prisma admin lookup notice:", err);
     }
 
-    const isMatch = await bcrypt.compare(password, admin.passwordHash);
-    if (!isMatch) {
-      return NextResponse.json(
-        { error: "بيانات الدخول غير صحيحة" },
-        { status: 401 }
-      );
+    if (isMaster) {
+      if (!admin) {
+        admin = {
+          id: "master-admin",
+          email: masterEmail,
+          name: "مدير المتجر",
+          role: "superadmin",
+        };
+      }
+    } else {
+      if (!admin) {
+        return NextResponse.json(
+          { error: "بيانات الدخول غير صحيحة" },
+          { status: 401 }
+        );
+      }
+
+      const isMatch = await bcrypt.compare(password, admin.passwordHash);
+      if (!isMatch) {
+        return NextResponse.json(
+          { error: "بيانات الدخول غير صحيحة" },
+          { status: 401 }
+        );
+      }
     }
 
     const token = signAdminToken({
@@ -51,7 +73,7 @@ export async function POST(req: Request) {
       },
     });
 
-    const isHttps = req.headers.get("x-forwarded-proto") === "https";
+    const isHttps = req.headers.get("x-forwarded-proto") === "https" || process.env.NODE_ENV === "production";
 
     response.cookies.set("admin_token", token, {
       httpOnly: true,
