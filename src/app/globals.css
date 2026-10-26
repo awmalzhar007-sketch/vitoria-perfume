@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #faf9f6;
+    --foreground: #111111;
+    --card-bg: #ffffff;
+    --card-subtle: #f5f4f0;
+    --border-light: #e8e6e1;
+    --gold: #c5a253;
+    --gold-light: #d4b568;
+    --gold-dark: #a88231;
+    --gold-subtle: #faf6ec;
+    --gold-glow: rgba(197, 162, 83, 0.15);
+    --text-muted: #6b6964;
+    --obsidian: #0d0d0d;
+  }
+
+  * {
+    border-color: #e8e6e1;
+  }
+
+  body {
+    background-color: #faf9f6;
+    color: #121212;
+    font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+  }
+}
+
+/* Custom luxury gold & typography utilities */
+.font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+.text-gold {
+  color: #c5a253;
+}
+
+.bg-gold {
+  background-color: #c5a253;
+}
+
+.bg-gold-light {
+  background-color: #faf6ec;
+}
+
+.border-gold {
+  border-color: #c5a253;
+}
+
+.border-gold-subtle {
+  border-color: rgba(197, 162, 83, 0.35);
+}
+
+.hover-gold:hover {
+  color: #c5a253;
+}
+
+/* Luxury Gold Shimmer & Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #d8b76c 0%, #c5a253 45%, #9b7625 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #d8b76c 0%, #c5a253 50%, #b08933 100%);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #d8b76c, #c5a253, #9b7625) 1;
+}
+
+/* Refined Haute Parfumerie Cards */
+.luxury-card {
+  background-color: #ffffff;
+  border: 1px solid #ebe8e1;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: #c5a253;
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(12, 12, 12, 0.08), 0 0 20px -5px rgba(197, 162, 83, 0.12);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf9f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d0c5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a253;
+}
+
+/* Print styling for invoice */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+}
+
+/* Hide Next.js dev indicator badge */
+nextjs-portal,
+[data-nextjs-dev-tools-button],
+[data-nextjs-toast-wrapper],
+#__next-build-watcher {
+  display: none !important;
+}
