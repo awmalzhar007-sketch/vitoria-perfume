@@ -31,6 +31,12 @@ export default async function HomePage() {
   let settings: any = null;
   let activeCoupon: any = null;
 
+  const OLD_SLUGS = [
+    'stellar-times', 'tobacco-vanille', 'la-capitale', 'nishane-ani',
+    'dior-homme-intense', 'black-orchid', 'black-mango', 'black-afgano',
+    'angels-share-on-the-rocks', 'naxos'
+  ];
+
   try {
     const data = await Promise.all([
       prisma.category.findMany({
@@ -41,7 +47,7 @@ export default async function HomePage() {
         },
       }),
       prisma.product.findMany({
-        where: { isPublished: true, isFeatured: true },
+        where: { isPublished: true, isFeatured: true, slug: { notIn: OLD_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -50,7 +56,7 @@ export default async function HomePage() {
         take: 4,
       }),
       prisma.product.findMany({
-        where: { isPublished: true, isBestseller: true },
+        where: { isPublished: true, isBestseller: true, slug: { notIn: OLD_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -59,7 +65,7 @@ export default async function HomePage() {
         take: 4,
       }),
       prisma.product.findMany({
-        where: { isPublished: true },
+        where: { isPublished: true, slug: { notIn: OLD_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -185,7 +191,7 @@ export default async function HomePage() {
                   <img
                     src={
                       settings?.heroImage ||
-                      "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=1000&auto=format&fit=crop"
+                      "/uploads/WhatsAppImage2026-10-18at125321-1792916211201-qpjkk5.jpeg"
                     }
                     alt={settings?.heroTitle?.replace(/\n/g, " ") || "VITORIA Royal Parfums"}
                     className="w-full h-full object-cover object-center"
@@ -396,7 +402,7 @@ export default async function HomePage() {
 
                 <div className="absolute right-8 top-1/2 -translate-y-1/2 hidden md:block w-72 h-72 border border-[#dedad2] opacity-40">
                   <img
-                    src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop"
+                    src="/uploads/WhatsAppImage2026-10-25at155928-1793009151963-h30pff.jpeg"
                     alt="VITORIA Luxury Perfumes"
                     className="w-full h-full object-cover"
                   />

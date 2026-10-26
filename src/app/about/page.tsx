@@ -48,7 +48,7 @@ export default async function AboutPage() {
             <img
               src={
                 settings?.aboutImage ||
-                "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?q=80&w=1200&auto=format&fit=crop"
+                "/uploads/WhatsAppImage2026-10-25at155928-1793009151963-h30pff.jpeg"
               }
               alt={settings?.aboutTitle || "VITORIA Perfume Atelier"}
               className="w-full h-full object-cover"

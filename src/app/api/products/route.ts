@@ -14,7 +14,20 @@ export async function GET(req: Request) {
     const newArrival = searchParams.get("new");
     const publishedOnly = searchParams.get("admin") !== "true";
 
-    const where: any = {};
+    const OLD_SLUGS = [
+      'stellar-times', 'tobacco-vanille', 'la-capitale', 'nishane-ani',
+      'dior-homme-intense', 'black-orchid', 'black-mango', 'black-afgano',
+      'angels-share-on-the-rocks', 'naxos'
+    ];
+    try {
+      await prisma.productImage.deleteMany({ where: { product: { slug: { in: OLD_SLUGS } } } });
+      await prisma.productSize.deleteMany({ where: { product: { slug: { in: OLD_SLUGS } } } });
+      await prisma.product.deleteMany({ where: { slug: { in: OLD_SLUGS } } });
+    } catch {}
+
+    const where: any = {
+      slug: { notIn: OLD_SLUGS },
+    };
 
     if (publishedOnly) {
       where.isPublished = true;

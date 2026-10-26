@@ -9,9 +9,9 @@
       "displayOrder": 0,
       "isActive": true,
       "createdAt": "2026-10-25T09:05:08.929Z",
-      "updatedAt": "2026-10-25T09:11:58.299Z",
+      "updatedAt": "2026-10-26T11:02:22.702Z",
       "_count": {
-        "products": 29
+        "products": 19
       }
     },
     {
@@ -23,7 +23,7 @@
       "displayOrder": 0,
       "isActive": true,
       "createdAt": "2026-10-25T09:05:17.019Z",
-      "updatedAt": "2026-10-25T09:12:05.827Z",
+      "updatedAt": "2026-10-26T11:02:22.775Z",
       "_count": {
         "products": 8
       }
@@ -37,7 +37,7 @@
       "displayOrder": 0,
       "isActive": true,
       "createdAt": "2026-10-25T09:05:25.147Z",
-      "updatedAt": "2026-10-25T09:12:17.621Z",
+      "updatedAt": "2026-10-26T11:02:22.849Z",
       "_count": {
         "products": 0
       }
@@ -51,7 +51,7 @@
       "displayOrder": 0,
       "isActive": true,
       "createdAt": "2026-10-25T09:05:48.134Z",
-      "updatedAt": "2026-10-25T09:16:49.605Z",
+      "updatedAt": "2026-10-26T11:02:22.923Z",
       "_count": {
         "products": 0
       }
@@ -65,763 +65,13 @@
       "displayOrder": 0,
       "isActive": true,
       "createdAt": "2026-10-25T09:17:33.900Z",
-      "updatedAt": "2026-10-25T09:17:33.900Z",
+      "updatedAt": "2026-10-26T11:02:22.997Z",
       "_count": {
         "products": 7
       }
     }
   ],
   "products": [
-    {
-      "id": "cmvnrstty0001vm8g2zej0ko3",
-      "name": "Stellar Times",
-      "nameEn": "Stellar Times",
-      "slug": "stellar-times",
-      "description": "Stellar Times من Louis Vuitton عطر فاخر للجنسين يجمع بين الأناقة الزهرية والدفء العنبرى في تركيبة عطرية مميزة. يبدأ بلمسة مشرقة من زهر البرتقال، ثم يكشف عن طابع العنبر الأبيض الناعم بلمسات خشبية أنيقة، قبل أن يستقر على دفء بلسم بيرو بلمسة حلوة تشبه الفانيليا. يتميز بطابع راقٍ ودافئ يجعله اختيارًا مثاليًا للأمسيات والمناسبات الخاصة، خاصة في أجواء الخريف والشتاء. عطر مناسب لمحبي الروائح العنبرية والزهرية الفاخرة، ويُصنف ضمن مجموعة Les Extraits من Louis Vuitton.",
-      "shortDescription": "",
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Louis Vuitton – Stellar Times",
-      "brandCollection": "Amber / Floral / Woody",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "زهر البرتقال، بلمسة زهرية مشرقة وأنيقة",
-      "heartNotes": "العنبر الأبيض، يمنح العطر طابعًا دافئًا وناعمًا",
-      "baseNotes": "بلسم بيرو، بلمسات بلسمية دافئة وحلاوة تشبه الفانيليا",
-      "createdAt": "2026-10-25T11:54:39.176Z",
-      "updatedAt": "2026-10-25T12:33:34.885Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnt6w9x001dvm8gkefj490f",
-          "productId": "cmvnrstty0001vm8g2zej0ko3",
-          "url": "/uploads/STELLARTIMES-1792929266743-4ng98h.jpeg",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:33:35.205Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnt6web001fvm8gn557wqw3",
-          "productId": "cmvnrstty0001vm8g2zej0ko3",
-          "size": "50ml",
-          "price": 450,
-          "originalPrice": 450,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnt6wgd001hvm8gso4x3ec5",
-          "productId": "cmvnrstty0001vm8g2zej0ko3",
-          "size": "100ml",
-          "price": 750,
-          "originalPrice": 750,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnt6wif001jvm8g6ygtn9tu",
-          "productId": "cmvnrstty0001vm8g2zej0ko3",
-          "size": "30ml",
-          "price": 300,
-          "originalPrice": 300,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvns37od0007vm8gryohnror",
-      "name": "Tobacco Vanille",
-      "nameEn": "Tobacco Vanille",
-      "slug": "tobacco-vanille",
-      "description": "Tobacco Vanille من Tom Ford، حيث يلتقي دفء التبغ الغني بحلاوة الفانيليا وعمق الكاكاو والتوابل. تركيبة جذابة تمنحك إحساسًا بالفخامة والدفء، وتترك انطباعًا مميزًا يناسب الأجواء الباردة والسهرات الراقية.",
-      "shortDescription": null,
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Tom Ford – Tobacco Vanille",
-      "brandCollection": "Warm Spicy / Amber / Gourmand",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "أوراق التبغ والتوابل، مع لمسة من الزنجبيل تضفي على العطر بداية دافئة وغنية.",
-      "heartNotes": "الفانيليا، وزهرة التبغ، وحبوب التونكا، والكاكاو؛ مزيج كريمي حلو يجمع بين الدفء والتوابل والطابع الفاخر",
-      "baseNotes": "الفواكه المجففة والأخشاب الحلوة، لتمنح العطر نهاية غنية ودافئة بلمسات حلوة وخشبية",
-      "createdAt": "2026-10-25T12:02:43.742Z",
-      "updatedAt": "2026-10-25T12:02:43.742Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvns37od0008vm8gcyepwsfa",
-          "productId": "cmvns37od0007vm8gryohnror",
-          "url": "/uploads/TobaccoVanille-1792929734203-6c9nbs.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:02:43.742Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvns37od0009vm8gp6o2qbfi",
-          "productId": "cmvns37od0007vm8gryohnror",
-          "size": "50ml",
-          "price": 450,
-          "originalPrice": 450,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvns37od000avm8gitnlxe6n",
-          "productId": "cmvns37od0007vm8gryohnror",
-          "size": "100ml",
-          "price": 750,
-          "originalPrice": 750,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvns37od000bvm8g6qpltoe8",
-          "productId": "cmvns37od0007vm8gryohnror",
-          "size": "30ml",
-          "price": 300,
-          "originalPrice": 300,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvns9y2h000dvm8ggw3kr8gj",
-      "name": "La Capitale",
-      "nameEn": "La Capitale",
-      "slug": "la-capitale",
-      "description": " عطر فاخر يجمع بين حلاوة الفراولة والخوخ والكراميل ودفء الزعفران والعنبر، مع لمسات من الورد والجلد، ليستقر على قاعدة غنية من العود وفانيليا بوربون. تركيبة جذابة تجمع بين الحلاوة والفخامة والعمق، لتمنحك حضورًا مميزًا في الأمسيات والمناسبات الراقية.",
-      "shortDescription": null,
-      "price": 550,
-      "originalPrice": 550,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Xerjoff – La Capitale",
-      "brandCollection": "Fruity / Sweet / Amber / Gourmand",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "الفراولة، الخوخ، الكراميل، واللابدانوم؛ بداية فاكهية حلوة وغنية تجمع بين عصارة الفواكه وحلاوة الكراميل ولمسة راتنجية دافئة",
-      "heartNotes": "الزعفران الإيراني، الزنجبيل، الورد، العنبر، والجلد؛ قلب عطري دافئ يجمع بين التوابل واللمسات الزهرية والجلدية الأنيقة",
-      "baseNotes": "العود، البنزوين، وفانيليا بوربون؛ نهاية عطرية دافئة وحلوة بلمسة خشبية راتنجية ناعمة",
-      "createdAt": "2026-10-25T12:07:57.881Z",
-      "updatedAt": "2026-10-25T12:07:57.881Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvns9y2h000evm8gm4hx196k",
-          "productId": "cmvns9y2h000dvm8ggw3kr8gj",
-          "url": "/uploads/XERJOFFLACAPITALE-1792929978296-mo4k0u.jpeg",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:07:57.881Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvns9y2h000fvm8gq3a2yv2z",
-          "productId": "cmvns9y2h000dvm8ggw3kr8gj",
-          "size": "50ml",
-          "price": 550,
-          "originalPrice": 550,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvns9y2h000gvm8gkejojsdb",
-          "productId": "cmvns9y2h000dvm8ggw3kr8gj",
-          "size": "100ml",
-          "price": 1050,
-          "originalPrice": 1050,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvns9y2h000hvm8gt0kdxrl0",
-          "productId": "cmvns9y2h000dvm8ggw3kr8gj",
-          "size": "30ml",
-          "price": 350,
-          "originalPrice": 350,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnsompi000jvm8gviy99np5",
-      "name": "Nishane Ani",
-      "nameEn": "Nishane Ani",
-      "slug": "nishane-ani",
-      "description": "عطر فاخر يجمع بين انتعاش البرغموت والزنجبيل ودفء التوابل، مع قلب غني بالكشمش الأسود والورد التركي والهيل. وتكتمل التجربة بقاعدة كريمية من الفانيليا والأخشاب والمسك، لتمنحك رائحة دافئة وجذابة تجمع بين الانتعاش والحلاوة والفخامة.",
-      "shortDescription": null,
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Nishane – Ani",
-      "brandCollection": "Spicy / Woody / Vanilla",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "البرغموت، النوتات الخضراء، الزنجبيل الأزرق، والفلفل الوردي؛ بداية منعشة وحارة بلمسة حمضية وتوابل مميزة",
-      "heartNotes": "الكشمش الأسود، الورد التركي، والهيل؛ مزيج فاكهي وزهري متبل يضيف للعطر عمقًا وأناقة",
-      "baseNotes": "الباتشولي، خشب الأرز، الفانيليا، البنزوين، العنبر الرمادي، المسك، وخشب الصندل؛ قاعدة دافئة وكريمية تجمع بين حلاوة الفانيليا ونعومة الأخشاب",
-      "createdAt": "2026-10-25T12:19:22.998Z",
-      "updatedAt": "2026-10-25T12:19:22.998Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnsompi000kvm8g94ml4dbd",
-          "productId": "cmvnsompi000jvm8gviy99np5",
-          "url": "/uploads/NishaneAni-1792930709701-zcczxt.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:19:22.998Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnsompi000lvm8gk8mzp95z",
-          "productId": "cmvnsompi000jvm8gviy99np5",
-          "size": "50ml",
-          "price": 450,
-          "originalPrice": 450,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnsompi000mvm8giev7rfdz",
-          "productId": "cmvnsompi000jvm8gviy99np5",
-          "size": "100ml",
-          "price": 750,
-          "originalPrice": 750,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnsompi000nvm8gwc0fxmwp",
-          "productId": "cmvnsompi000jvm8gviy99np5",
-          "size": "30ml",
-          "price": 300,
-          "originalPrice": 300,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnsuely000pvm8gvv2y8se6",
-      "name": "Dior Homme Intense",
-      "nameEn": "Dior Homme Intense",
-      "slug": "dior-homme-intense",
-      "description": "عطر رجالي فاخر يجمع بين نعومة السوسن البودرية ودفء العنبر ولمسات الأخشاب الراقية. تركيبة متوازنة تمنحك حضورًا أنيقًا وجذابًا، وتناسب الأمسيات والمناسبات الخاصة، خاصة في الأجواء الباردة.",
-      "shortDescription": null,
-      "price": 350,
-      "originalPrice": 350,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Dior – Dior Homme Intense",
-      "brandCollection": "Woody / Amber / Powdery",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "السوسن التوسكاني (Tuscan Iris)، برائحة بودرية أنيقة وناعمة",
-      "heartNotes": "بذور الأمبريت (Ambrette)، بلمسات مسكية ناعمة تضيف عمقًا وجاذبية للعطر",
-      "baseNotes": "خشب الأرز الفرجيني (Virginia Cedar)، بلمسة خشبية دافئة وأنيقة",
-      "createdAt": "2026-10-25T12:23:52.438Z",
-      "updatedAt": "2026-10-25T12:23:52.438Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnsuely000qvm8gyjaw1bcg",
-          "productId": "cmvnsuely000pvm8gvv2y8se6",
-          "url": "/uploads/DiorHommeIntense-1792931020849-sqogqk.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:23:52.438Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnsuely000rvm8g4vdnjq7z",
-          "productId": "cmvnsuely000pvm8gvv2y8se6",
-          "size": "50ml",
-          "price": 350,
-          "originalPrice": 350,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnsuely000svm8gem3fylr7",
-          "productId": "cmvnsuely000pvm8gvv2y8se6",
-          "size": "100ml",
-          "price": 650,
-          "originalPrice": 650,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnsuely000tvm8gln5poepn",
-          "productId": "cmvnsuely000pvm8gvv2y8se6",
-          "size": "30ml",
-          "price": 250,
-          "originalPrice": 250,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnsytps000vvm8gyh0ev2ti",
-      "name": "Black Orchid",
-      "nameEn": "Black Orchid",
-      "slug": "black-orchid",
-      "description": "عطر فاخر يجمع بين غموض الأوركيد الأسود وعمق الكمأة والتوابل، مع لمسات غنية من الشوكولاتة الداكنة والعنبر والفانيليا. تركيبة جريئة ومميزة تمنحك حضورًا أنيقًا ولافتًا، وتناسب محبي العطور العميقة والفاخرة والأجواء المسائية الراقية",
-      "shortDescription": null,
-      "price": 350,
-      "originalPrice": 350,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Tom Ford – Black Orchid",
-      "brandCollection": "Amber / Floral / Woody / Earthy",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "الكمأة السوداء، الإيلنغ إيلنغ، البرغموت، الكشمش الأسود والحمضيات؛ افتتاحية غنية وغامضة تجمع بين اللمسات الترابية والانتعاش الحمضي",
-      "heartNotes": "الأوركيد الأسود، الياسمين، الغاردينيا، اللوتس والتوابل؛ قلب زهري عميق يمزج الأناقة بالدفء والغموض",
-      "baseNotes": "الباتشولي، خشب الصندل، الشوكولاتة الداكنة، البخور، العنبر، الفانيليا ونجيل الهند؛ قاعدة دافئة وغنية بلمسات خشبية وحلوة",
-      "createdAt": "2026-10-25T12:27:18.640Z",
-      "updatedAt": "2026-10-25T12:27:18.640Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnsytps000wvm8giabscqcp",
-          "productId": "cmvnsytps000vvm8gyh0ev2ti",
-          "url": "/uploads/BlackOrchid-1792931212932-vnvyna.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:27:18.640Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnsytps000xvm8g79ubhk0b",
-          "productId": "cmvnsytps000vvm8gyh0ev2ti",
-          "size": "50ml",
-          "price": 350,
-          "originalPrice": 350,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnsytps000yvm8g2ep1si6r",
-          "productId": "cmvnsytps000vvm8gyh0ev2ti",
-          "size": "100ml",
-          "price": 650,
-          "originalPrice": 650,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnsytps000zvm8g0gi7awv1",
-          "productId": "cmvnsytps000vvm8gyh0ev2ti",
-          "size": "30ml",
-          "price": 250,
-          "originalPrice": 250,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnt2eqp0011vm8gztikdpfl",
-      "name": "Black Mango",
-      "nameEn": "Black Mango",
-      "slug": "black-mango",
-      "description": "حيث تلتقي حلاوة المانجو الاستوائية بانتعاش البرتقال، ثم تنساب إلى قلب كريمي من فانيليا بوربون وبلسم التولو. وتكتمل التركيبة بقاعدة عميقة من العود والجلد وخشب الصندل، لتمنحك توازنًا جريئًا بين الفاكهة الحلوة والأخشاب الداكنة. عطر مميز لمحبي الروائح الغنية والجريئة ذات الطابع المختلف",
-      "shortDescription": null,
-      "price": 550,
-      "originalPrice": 550,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "BORNTOSTANDOUT® – Black Mango",
-      "brandCollection": "Fruity / Sweet / Woody / Amber",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "المانجو والبرتقال؛ بداية استوائية غنية تجمع بين حلاوة المانجو الناضجة والانتعاش الحمضي للبرتقال",
-      "heartNotes": "المانجو الكريمية، فانيليا بوربون، وبلسم التولو؛ قلب حلو وكريمي بلمسات راتنجية دافئة تمنح العطر عمقًا مميزًا",
-      "baseNotes": "العود، الجلد، خشب الصندل، والسيبريول؛ قاعدة خشبية داكنة تجمع بين الدفء والطابع الجلدي والمدخن",
-      "createdAt": "2026-10-25T12:30:05.858Z",
-      "updatedAt": "2026-10-25T12:30:05.858Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnt2eqp0012vm8gn5msv22y",
-          "productId": "cmvnt2eqp0011vm8gztikdpfl",
-          "url": "/uploads/BLACKMANGO-1792931385405-xm3bu8.jpeg",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:30:05.858Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnt2eqp0013vm8gheaqa7a6",
-          "productId": "cmvnt2eqp0011vm8gztikdpfl",
-          "size": "50ml",
-          "price": 550,
-          "originalPrice": 550,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnt2eqp0014vm8g0vzyt8nb",
-          "productId": "cmvnt2eqp0011vm8gztikdpfl",
-          "size": "100ml",
-          "price": 1050,
-          "originalPrice": 1050,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnt2eqp0015vm8gdowr64pt",
-          "productId": "cmvnt2eqp0011vm8gztikdpfl",
-          "size": "30ml",
-          "price": 350,
-          "originalPrice": 350,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnt6k9v0017vm8gl5m999dc",
-      "name": "Black Afgano",
-      "nameEn": "Black Afgano",
-      "slug": "black-afgano",
-      "description": "عطر جريء وغامض يجمع بين الخضرة الداكنة ودفء التبغ والقهوة، مع لمسات راتنجية ودخانية عميقة. وتستقر تركيبته على قاعدة فاخرة من العود والبخور والأخشاب والعنبر، لتمنحك حضورًا قويًا ومميزًا. اختيار مثالي لمحبي العطور الداكنة ذات الشخصية الجريئة والطابع الشرقي الخشبي",
-      "shortDescription": null,
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Nasomatto – Black Afgano",
-      "brandCollection": "Woody / Smoky / Amber",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "القنب العطري (Cannabis Accord)، النوتات الخضراء، الدافانا، الزعفران والزعتر؛ افتتاحية عشبية داكنة تجمع بين الخضرة والتوابل بلمسة غامضة",
-      "heartNotes": "العود، البخور، العنبر، خشب الأرز، خشب الغاياك، المسك، حبوب التونكا، الفانيليا والبلسم؛ قاعدة عميقة ودخانية بلمسات خشبية وعنبرية دافئة",
-      "baseNotes": "دخاني، خشبي، ترابي، عنبري، مع لمسات من التبغ والقهوة والتوابل",
-      "createdAt": "2026-10-25T12:33:19.651Z",
-      "updatedAt": "2026-10-25T12:33:19.651Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnt6k9v0018vm8gjy0ljdl5",
-          "productId": "cmvnt6k9v0017vm8gl5m999dc",
-          "url": "/uploads/BlackAfgano-1792931591984-c06m08.jpeg",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:33:19.651Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnt6k9v0019vm8gu2jrkkeh",
-          "productId": "cmvnt6k9v0017vm8gl5m999dc",
-          "size": "50ml",
-          "price": 550,
-          "originalPrice": 550,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnt6k9v001avm8g1fh9ot4n",
-          "productId": "cmvnt6k9v0017vm8gl5m999dc",
-          "size": "100ml",
-          "price": 1050,
-          "originalPrice": 1050,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnt6k9v001bvm8gio3dn2zi",
-          "productId": "cmvnt6k9v0017vm8gl5m999dc",
-          "size": "30ml",
-          "price": 350,
-          "originalPrice": 350,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvnthnu4001lvm8g977bhf5l",
-      "name": "Angels’ Share On The Rocks",
-      "nameEn": "Angels’ Share On The Rocks",
-      "slug": "angels-share-on-the-rocks",
-      "description": "تجربة عطرية تجمع بين انتعاش الحمضيات وبرودة الاتفاقية العطرية المميزة On The Rocks، مع قلب غني بجوهر الكونياك والقرفة. وتكتمل الرائحة بقاعدة دافئة من حبوب التونكا وخشب البلوط، لتخلق توازنًا جذابًا بين الانتعاش والدفء. اختيار راقٍ لمحبي العطور الفاخرة التي تجمع بين الحيوية والعمق.",
-      "shortDescription": null,
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "KILIAN PARIS – Angels’ Share On The Rocks",
-      "brandCollection": "Citrus / Amber / Warm Spicy / Woody",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "اتفاقية On The Rocks العطرية والبرتقال المر، مع لمسات من البرغموت والجريب فروت والليمون؛ بداية منعشة وحمضية بإحساس بارد ومشرق",
-      "heartNotes": "جوهر الكونياك والقرفة؛ مزيج يجمع بين دفء الكونياك والتوابل مع توازن منعش وأنيق",
-      "baseNotes": "حبوب التونكا وخشب البلوط؛ قاعدة دافئة وناعمة بلمسات عنبرية وخشبية",
-      "createdAt": "2026-10-25T12:41:57.484Z",
-      "updatedAt": "2026-10-25T12:41:57.484Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvnthnu4001mvm8grc1ottpr",
-          "productId": "cmvnthnu4001lvm8g977bhf5l",
-          "url": "/uploads/AngelsShareOnTheRocks-1792931879792-7i1avt.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:41:57.484Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvnthnu4001nvm8gyz4ghp6x",
-          "productId": "cmvnthnu4001lvm8g977bhf5l",
-          "size": "50ml",
-          "price": 450,
-          "originalPrice": 450,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvnthnu4001ovm8ghdjsi27v",
-          "productId": "cmvnthnu4001lvm8g977bhf5l",
-          "size": "100ml",
-          "price": 750,
-          "originalPrice": 750,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvnthnu4001pvm8gn4wmrn76",
-          "productId": "cmvnthnu4001lvm8g977bhf5l",
-          "size": "30ml",
-          "price": 300,
-          "originalPrice": 300,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
-    {
-      "id": "cmvntkte2001rvm8g0p72ookt",
-      "name": "Naxos",
-      "nameEn": "Naxos",
-      "slug": "naxos",
-      "description": "عطر فاخر يجمع بين انتعاش الليمون والبرغموت واللافندر، وحلاوة العسل ودفء القرفة في قلب عطري غني. وتكتمل التجربة بقاعدة جذابة من أوراق التبغ والفانيليا وحبوب التونكا، لتمنحك مزيجًا متوازنًا بين الانتعاش والحلاوة والدفء. اختيار مثالي لمحبي العطور الفاخرة ذات الشخصية المميزة والحضور الأنيق",
-      "shortDescription": "",
-      "price": 450,
-      "originalPrice": 450,
-      "categoryId": "cmvnlqudc0005vm6wx2paidge",
-      "concentration": "Eau de Parfum (EDP)",
-      "inspiration": "Xerjoff – Naxos",
-      "brandCollection": "Aromatic / Sweet / Tobacco / Gourmand",
-      "isFeatured": false,
-      "isBestseller": false,
-      "isNewArrival": false,
-      "isPublished": true,
-      "stockQuantity": 15,
-      "lowStockAlert": 3,
-      "topNotes": "الليمون، البرغموت، اللافندر، والبخور العُماني؛ بداية منعشة وحمضية مع لمسات عطرية عشبية تضيف الأناقة والانتعاش",
-      "heartNotes": "الياسمين سامباك، العسل، القرفة، والكشميران؛ قلب دافئ يجمع بين حلاوة العسل والتوابل واللمسات الزهرية والخشبية الناعمة",
-      "baseNotes": "أوراق التبغ، الفانيليا، وحبوب التونكا؛ قاعدة غنية ودافئة تمزج بين الطابع التبغي الأنيق والحلاوة الكريمية",
-      "createdAt": "2026-10-25T12:44:24.650Z",
-      "updatedAt": "2026-10-25T12:44:47.546Z",
-      "category": {
-        "id": "cmvnlqudc0005vm6wx2paidge",
-        "name": "Winter",
-        "slug": "winter",
-        "description": null,
-        "image": "/uploads/Screenshot2026-10-25021109-1792919516023-0w4qk7.png",
-        "displayOrder": 0,
-        "isActive": true,
-        "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
-      },
-      "images": [
-        {
-          "id": "cmvntlb8w001xvm8g3vueu8sy",
-          "productId": "cmvntkte2001rvm8g0p72ookt",
-          "url": "/uploads/XerjoffNaxos-1792932285866-g307b8.png",
-          "isPrimary": true,
-          "order": 0,
-          "createdAt": "2026-10-25T12:44:47.792Z"
-        }
-      ],
-      "sizes": [
-        {
-          "id": "cmvntlbdp001zvm8gc7rokzb7",
-          "productId": "cmvntkte2001rvm8g0p72ookt",
-          "size": "50ml",
-          "price": 450,
-          "originalPrice": 450,
-          "stock": 5,
-          "isDefault": true
-        },
-        {
-          "id": "cmvntlbfr0021vm8gn96ryr8c",
-          "productId": "cmvntkte2001rvm8g0p72ookt",
-          "size": "100ml",
-          "price": 750,
-          "originalPrice": 750,
-          "stock": 5,
-          "isDefault": false
-        },
-        {
-          "id": "cmvntlbhs0023vm8gij8cdtfz",
-          "productId": "cmvntkte2001rvm8g0p72ookt",
-          "size": "30ml",
-          "price": 300,
-          "originalPrice": 300,
-          "stock": 5,
-          "isDefault": false
-        }
-      ]
-    },
     {
       "id": "cmvp2hvsq0001vm2gcxuyw7bk",
       "name": "ون مليون رويال",
@@ -845,7 +95,7 @@
       "heartNotes": "الخزامى (Lavender)، زهر البرتقال (Orange Blossom)، البنفسج (Violet)",
       "baseNotes": "الفانيليا (Vanilla)، خشب الأرز (Cedarwood)، العنبر (Amber)",
       "createdAt": "2026-10-26T09:41:50.397Z",
-      "updatedAt": "2026-10-26T09:41:50.397Z",
+      "updatedAt": "2026-10-26T11:20:03.584Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -855,21 +105,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hvyl0003vm2gkzhuwi33",
+          "id": "cmvp607ds0001vmt03civlmr7",
           "productId": "cmvp2hvsq0001vm2gcxuyw7bk",
           "url": "/uploads/1 million royal.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:50.733Z"
+          "createdAt": "2026-10-26T11:20:04.192Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hw0x0005vm2gao6r81yt",
+          "id": "cmvp607hw0003vmt06fk2i3up",
           "productId": "cmvp2hvsq0001vm2gcxuyw7bk",
           "size": "30ml",
           "price": 300,
@@ -878,7 +128,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hw3b0007vm2gxrhx7jyn",
+          "id": "cmvp607jx0005vmt022nf9jam",
           "productId": "cmvp2hvsq0001vm2gcxuyw7bk",
           "size": "50ml",
           "price": 450,
@@ -887,7 +137,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hw5n0009vm2ggyi0ebb6",
+          "id": "cmvp607m00007vmt06j8wycbp",
           "productId": "cmvp2hvsq0001vm2gcxuyw7bk",
           "size": "100ml",
           "price": 750,
@@ -920,7 +170,7 @@
       "heartNotes": "زهر البرتقال (Orange Blossom)، زنبق الوادي (Lily-of-the-Valley)",
       "baseNotes": "الفانيليا (Vanilla)، حبوب التونكا (Tonka Bean)، العنبر (Amber)، الباتشولي (Patchouli)",
       "createdAt": "2026-10-26T09:41:51.074Z",
-      "updatedAt": "2026-10-26T09:41:51.074Z",
+      "updatedAt": "2026-10-26T11:20:04.575Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -930,21 +180,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2hwac000dvm2gti0rgtaz",
+          "id": "cmvp607sr0009vmt0266hnb7r",
           "productId": "cmvp2hw82000bvm2gdu4ekth6",
           "url": "/uploads/Afnan 9 pm.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:51.157Z"
+          "createdAt": "2026-10-26T11:20:04.732Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hwcp000fvm2gxiuyima9",
+          "id": "cmvp607wv000bvmt0n0z0gvvn",
           "productId": "cmvp2hw82000bvm2gdu4ekth6",
           "size": "30ml",
           "price": 250,
@@ -953,7 +203,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hweq000hvm2gtog1v8rw",
+          "id": "cmvp607yx000dvmt0uanyyq40",
           "productId": "cmvp2hw82000bvm2gdu4ekth6",
           "size": "50ml",
           "price": 350,
@@ -962,7 +212,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hwgu000jvm2gjehlhic9",
+          "id": "cmvp6080y000fvmt0gvmd1ktr",
           "productId": "cmvp2hw82000bvm2gdu4ekth6",
           "size": "100ml",
           "price": 650,
@@ -995,7 +245,7 @@
       "heartNotes": "الورد البلغاري (Bulgarian Rose)، الياسمين (Jasmine)، خشب الأرز (Cedarwood)",
       "baseNotes": "العود النقي المعتق (Oud)، العنبر (Amber)، الفانيليا (Vanilla)، المسك (Musk)",
       "createdAt": "2026-10-26T09:41:51.475Z",
-      "updatedAt": "2026-10-26T09:41:51.475Z",
+      "updatedAt": "2026-10-26T11:20:05.102Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -1005,21 +255,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2hwmh000nvm2gzq3s7xz9",
+          "id": "cmvp6087f000hvmt042e2laif",
           "productId": "cmvp2hwj7000lvm2gt9xtce8w",
           "url": "/uploads/alexandria ii by xerjoff.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:51.593Z"
+          "createdAt": "2026-10-26T11:20:05.259Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hwot000pvm2gimyz9eq0",
+          "id": "cmvp608bj000jvmt0pjwcbwij",
           "productId": "cmvp2hwj7000lvm2gt9xtce8w",
           "size": "30ml",
           "price": 350,
@@ -1028,7 +278,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hwqv000rvm2gqxmg7umd",
+          "id": "cmvp608dm000lvmt06ifgwnri",
           "productId": "cmvp2hwj7000lvm2gt9xtce8w",
           "size": "50ml",
           "price": 550,
@@ -1037,7 +287,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hwsx000tvm2gh9acey8t",
+          "id": "cmvp608fx000nvmt062uf00vj",
           "productId": "cmvp2hwj7000lvm2gt9xtce8w",
           "size": "100ml",
           "price": 1050,
@@ -1070,7 +320,7 @@
       "heartNotes": "الفانيليا البوربون (Vanilla)، القرفة (Cinnamon)، زهر البرتقال (Orange Blossom)",
       "baseNotes": "العنبر (Amber)، حبوب التونكا (Tonka Bean)، البرالين (Praline)",
       "createdAt": "2026-10-26T09:41:51.900Z",
-      "updatedAt": "2026-10-26T09:41:51.900Z",
+      "updatedAt": "2026-10-26T11:20:05.642Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1080,21 +330,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hwx3000xvm2g153eb50x",
+          "id": "cmvp608me000pvmt08ntvo8ud",
           "productId": "cmvp2hwuz000vvm2gccmi5qks",
           "url": "/uploads/althair.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:51.976Z"
+          "createdAt": "2026-10-26T11:20:05.799Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hwze000zvm2gc81hhol7",
+          "id": "cmvp608qi000rvmt02sx8xnh9",
           "productId": "cmvp2hwuz000vvm2gccmi5qks",
           "size": "30ml",
           "price": 300,
@@ -1103,7 +353,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hx1f0011vm2gd7auu30o",
+          "id": "cmvp608sk000tvmt07u2sghnw",
           "productId": "cmvp2hwuz000vvm2gccmi5qks",
           "size": "50ml",
           "price": 450,
@@ -1112,7 +362,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hx3h0013vm2gkvgf24ti",
+          "id": "cmvp608um000vvmt04ue71du5",
           "productId": "cmvp2hwuz000vvm2gccmi5qks",
           "size": "100ml",
           "price": 750,
@@ -1145,7 +395,7 @@
       "heartNotes": "التبغ الأشقر (Blonde Tobacco)، مسك الروم (Tuberose)، الياسمين (Jasmine)، الفواكه المجففة (Dried Fruits)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، الفانيليا (Vanilla)، المر (Myrrh)، الباتشولي (Patchouli)",
       "createdAt": "2026-10-26T09:41:52.280Z",
-      "updatedAt": "2026-10-26T09:41:52.280Z",
+      "updatedAt": "2026-10-26T11:20:06.169Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1155,21 +405,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hx8a0017vm2giys1hrj0",
+          "id": "cmvp60912000xvmt0l4xwftzu",
           "productId": "cmvp2hx5j0015vm2g42cqgba9",
           "url": "/uploads/Angels share paradis.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:52.379Z"
+          "createdAt": "2026-10-26T11:20:06.327Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hxab0019vm2gn6z8327d",
+          "id": "cmvp60957000zvmt0px4sgxio",
           "productId": "cmvp2hx5j0015vm2g42cqgba9",
           "size": "30ml",
           "price": 300,
@@ -1178,7 +428,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hxcd001bvm2g8epyhgkx",
+          "id": "cmvp609780011vmt020gqp3c3",
           "productId": "cmvp2hx5j0015vm2g42cqgba9",
           "size": "50ml",
           "price": 450,
@@ -1187,7 +437,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hxef001dvm2g8t6xccl4",
+          "id": "cmvp6099b0013vmt09fvcf658",
           "productId": "cmvp2hx5j0015vm2g42cqgba9",
           "size": "100ml",
           "price": 750,
@@ -1220,7 +470,7 @@
       "heartNotes": "الورد (Rose)، العود (Oud)، الياسمين (Jasmine)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، العنبر (Amber)، الفانيليا (Vanilla)، المسك (Musk)",
       "createdAt": "2026-10-26T09:41:52.674Z",
-      "updatedAt": "2026-10-26T09:41:52.674Z",
+      "updatedAt": "2026-10-26T11:20:06.698Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -1230,21 +480,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2hxiv001hvm2gjyly9d5t",
+          "id": "cmvp609fr0015vmt0tm41eze9",
           "productId": "cmvp2hxgi001fvm2gfaz8q1xf",
           "url": "/uploads/arabians tonka.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:52.759Z"
+          "createdAt": "2026-10-26T11:20:06.855Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hxkw001jvm2gktikg4dv",
+          "id": "cmvp609jv0017vmt04k9ssm02",
           "productId": "cmvp2hxgi001fvm2gfaz8q1xf",
           "size": "30ml",
           "price": 300,
@@ -1253,7 +503,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hxmy001lvm2gt9zkyn34",
+          "id": "cmvp609lx0019vmt0stwpjkz7",
           "productId": "cmvp2hxgi001fvm2gfaz8q1xf",
           "size": "50ml",
           "price": 450,
@@ -1262,7 +512,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hxoz001nvm2g71sgj8bm",
+          "id": "cmvp609ny001bvmt0xrd7qwkh",
           "productId": "cmvp2hxgi001fvm2gfaz8q1xf",
           "size": "100ml",
           "price": 750,
@@ -1295,7 +545,7 @@
       "heartNotes": "اللافندر (Lavender)، إكليل الجبل (Rosemary)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، الفانيليا (Vanilla)، خشب الأرز (Cedarwood)",
       "createdAt": "2026-10-26T09:41:53.055Z",
-      "updatedAt": "2026-10-26T09:41:53.055Z",
+      "updatedAt": "2026-10-26T11:20:07.226Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1305,21 +555,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hxt4001rvm2gh2f83wsf",
+          "id": "cmvp609uf001dvmt0zncpwk0y",
           "productId": "cmvp2hxr2001pvm2gwwe9e7fj",
           "url": "/uploads/armani code.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:53.128Z"
+          "createdAt": "2026-10-26T11:20:07.383Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hxv6001tvm2glldh26bx",
+          "id": "cmvp609yj001fvmt0z577t6a2",
           "productId": "cmvp2hxr2001pvm2gwwe9e7fj",
           "size": "30ml",
           "price": 250,
@@ -1328,7 +578,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hxx7001vvm2gtuh08owp",
+          "id": "cmvp60a0l001hvmt08w5l5hb2",
           "productId": "cmvp2hxr2001pvm2gwwe9e7fj",
           "size": "50ml",
           "price": 350,
@@ -1337,7 +587,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hxz9001xvm2ggj596mr7",
+          "id": "cmvp60a5k001jvmt0sw09odao",
           "productId": "cmvp2hxr2001pvm2gwwe9e7fj",
           "size": "100ml",
           "price": 650,
@@ -1370,7 +620,7 @@
       "heartNotes": "الجلد (Leather)، الورد (Rose)، الياسمين (Jasmine)",
       "baseNotes": "الفانيليا (Vanilla)، العنبر (Amber)، العود (Oud)، المسك (Musk)",
       "createdAt": "2026-10-26T09:41:53.425Z",
-      "updatedAt": "2026-10-26T09:41:53.425Z",
+      "updatedAt": "2026-10-26T11:20:07.859Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1380,21 +630,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hy3q0021vm2gpt2ujqw3",
+          "id": "cmvp60ac0001lvmt0mp0rfhmq",
           "productId": "cmvp2hy1d001zvm2gyxrswdhj",
           "url": "/uploads/babycat.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:53.510Z"
+          "createdAt": "2026-10-26T11:20:08.017Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hy610023vm2gv2n9t1u7",
+          "id": "cmvp60ag5001nvmt0c142ea2m",
           "productId": "cmvp2hy1d001zvm2gyxrswdhj",
           "size": "30ml",
           "price": 300,
@@ -1403,7 +653,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hy830025vm2gwumcpgm0",
+          "id": "cmvp60ai6001pvmt0y33k7pfg",
           "productId": "cmvp2hy1d001zvm2gyxrswdhj",
           "size": "50ml",
           "price": 450,
@@ -1412,7 +662,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hyah0027vm2gtn5mkhtc",
+          "id": "cmvp60ak9001rvmt09zsykklz",
           "productId": "cmvp2hy1d001zvm2gyxrswdhj",
           "size": "100ml",
           "price": 750,
@@ -1445,7 +695,7 @@
       "heartNotes": "الياسمين (Jasmine)، الكريمة المخفوقة (Whipped Cream)، الهيليوتروب (Heliotrope)",
       "baseNotes": "الفانيليا (Vanilla)، المسك الأبيض (White Musk)، البنزوين (Benzoin)",
       "createdAt": "2026-10-26T09:41:53.838Z",
-      "updatedAt": "2026-10-26T09:41:53.838Z",
+      "updatedAt": "2026-10-26T11:20:08.424Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1455,21 +705,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hyf6002bvm2gjp8xlgf0",
+          "id": "cmvp60arp001tvmt0asxx3ml9",
           "productId": "cmvp2hycu0029vm2gjcg4r46b",
           "url": "/uploads/bianco latte.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:53.923Z"
+          "createdAt": "2026-10-26T11:20:08.581Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hyh8002dvm2gxkx47a4u",
+          "id": "cmvp60avs001vvmt0l0yl6h6a",
           "productId": "cmvp2hycu0029vm2gjcg4r46b",
           "size": "30ml",
           "price": 300,
@@ -1478,7 +728,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hyj9002fvm2ge0y9tq97",
+          "id": "cmvp60axv001xvmt0pdfmg0g0",
           "productId": "cmvp2hycu0029vm2gjcg4r46b",
           "size": "50ml",
           "price": 450,
@@ -1487,7 +737,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hylb002hvm2gc51akh6a",
+          "id": "cmvp60b07001zvmt0ccz5ju9m",
           "productId": "cmvp2hycu0029vm2gjcg4r46b",
           "size": "100ml",
           "price": 750,
@@ -1520,7 +770,7 @@
       "heartNotes": "الشوكولاتة الداكنة (Dark Chocolate)، الهيليوتروب (Heliotrope)، كراميل (Caramel)",
       "baseNotes": "خشب الصندل (Sandalwood)، نجيل الهند (Vetiver)، اتفاق السيانيد (Cyanide Accord)",
       "createdAt": "2026-10-26T09:41:54.219Z",
-      "updatedAt": "2026-10-26T09:41:54.219Z",
+      "updatedAt": "2026-10-26T11:20:08.963Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1530,21 +780,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hypr002lvm2g36k07bwy",
+          "id": "cmvp60b6o0021vmt06g1axp9n",
           "productId": "cmvp2hynf002jvm2gj124osz6",
           "url": "/uploads/black phantom.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:54.303Z"
+          "createdAt": "2026-10-26T11:20:09.120Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hysi002nvm2ga4wcpvx9",
+          "id": "cmvp60bb30023vmt0jtobsbwc",
           "productId": "cmvp2hynf002jvm2gj124osz6",
           "size": "30ml",
           "price": 300,
@@ -1553,7 +803,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hyws002pvm2glfq8ael4",
+          "id": "cmvp60bd60025vmt01wzwnna3",
           "productId": "cmvp2hynf002jvm2gj124osz6",
           "size": "50ml",
           "price": 450,
@@ -1562,7 +812,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hyyu002rvm2gozwprcn7",
+          "id": "cmvp60bfj0027vmt0gb3ub0vb",
           "productId": "cmvp2hynf002jvm2gj124osz6",
           "size": "100ml",
           "price": 750,
@@ -1595,7 +845,7 @@
       "heartNotes": "التبغ الأشقر (Blonde Tobacco)، مسك الروم (Tuberose)، الياسمين (Jasmine)، الفواكه المجففة (Dried Fruits)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، الفانيليا (Vanilla)، المر (Myrrh)، الباتشولي (Patchouli)",
       "createdAt": "2026-10-26T09:41:54.708Z",
-      "updatedAt": "2026-10-26T09:41:54.708Z",
+      "updatedAt": "2026-10-26T11:20:09.525Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -1605,21 +855,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2hz3a002vvm2gss7nxuur",
+          "id": "cmvp60bm90029vmt0xdn7cpqw",
           "productId": "cmvp2hz10002tvm2g4kswoqy5",
           "url": "/uploads/Blonde Amber.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:54.791Z"
+          "createdAt": "2026-10-26T11:20:09.682Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hz5c002xvm2gvphugd43",
+          "id": "cmvp60bqd002bvmt0bwm77r40",
           "productId": "cmvp2hz10002tvm2g4kswoqy5",
           "size": "30ml",
           "price": 350,
@@ -1628,7 +878,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hz7d002zvm2gymgai3sx",
+          "id": "cmvp60bsf002dvmt0kun4yb9r",
           "productId": "cmvp2hz10002tvm2g4kswoqy5",
           "size": "50ml",
           "price": 550,
@@ -1637,7 +887,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hz9f0031vm2gqj7islid",
+          "id": "cmvp60buh002fvmt0qmn8t1sw",
           "productId": "cmvp2hz10002tvm2g4kswoqy5",
           "size": "100ml",
           "price": 1050,
@@ -1670,7 +920,7 @@
       "heartNotes": "الزنجبيل (Ginger)، زهر البرتقال (Orange Blossom)، الهيل (Cardamom)",
       "baseNotes": "العنبر (Amber)، التبغ (Tobacco)، خشب الأرز (Cedarwood)",
       "createdAt": "2026-10-26T09:41:55.086Z",
-      "updatedAt": "2026-10-26T09:41:55.086Z",
+      "updatedAt": "2026-10-26T11:20:10.052Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1680,21 +930,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hzdm0035vm2grg3omear",
+          "id": "cmvp60c0n002hvmt01gh2misw",
           "productId": "cmvp2hzbh0033vm2ggbpb06xn",
           "url": "/uploads/dolce & gebbana the one.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:55.162Z"
+          "createdAt": "2026-10-26T11:20:10.199Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hzfw0037vm2g7xyw187a",
+          "id": "cmvp60c4q002jvmt03a3m9szw",
           "productId": "cmvp2hzbh0033vm2ggbpb06xn",
           "size": "30ml",
           "price": 250,
@@ -1703,7 +953,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hzhy0039vm2gayaxmk2a",
+          "id": "cmvp60c6t002lvmt0vd88a7eh",
           "productId": "cmvp2hzbh0033vm2ggbpb06xn",
           "size": "50ml",
           "price": 350,
@@ -1712,7 +962,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hzk0003bvm2goa9762pv",
+          "id": "cmvp60c95002nvmt0yzsr0wuh",
           "productId": "cmvp2hzbh0033vm2ggbpb06xn",
           "size": "100ml",
           "price": 650,
@@ -1745,7 +995,7 @@
       "heartNotes": "الورد (Rose)، الياسمين (Jasmine)، الزعفران (Saffron)",
       "baseNotes": "العود (Oud)، العنبر (Amber)، الفانيليا (Vanilla)، الجلد (Leather)",
       "createdAt": "2026-10-26T09:41:55.468Z",
-      "updatedAt": "2026-10-26T09:41:55.468Z",
+      "updatedAt": "2026-10-26T11:20:10.582Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -1755,21 +1005,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2hzof003fvm2gvduy8ixo",
+          "id": "cmvp60cfx002pvmt0q7y3reb3",
           "productId": "cmvp2hzm4003dvm2gj9s5060u",
           "url": "/uploads/gessah.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:55.551Z"
+          "createdAt": "2026-10-26T11:20:10.749Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2hzqh003hvm2gsx3h14zp",
+          "id": "cmvp60ck0002rvmt048clijjy",
           "productId": "cmvp2hzm4003dvm2gj9s5060u",
           "size": "30ml",
           "price": 350,
@@ -1778,7 +1028,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2hzst003jvm2gqhd6tkn3",
+          "id": "cmvp60cm3002tvmt0qx6bzr9f",
           "productId": "cmvp2hzm4003dvm2gj9s5060u",
           "size": "50ml",
           "price": 550,
@@ -1787,7 +1037,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2hzuv003lvm2g5bdhiaus",
+          "id": "cmvp60co4002vvmt0uruo1zur",
           "productId": "cmvp2hzm4003dvm2gj9s5060u",
           "size": "100ml",
           "price": 1050,
@@ -1820,7 +1070,7 @@
       "heartNotes": "العنبر (Amber)، حبوب التونكا (Tonka Bean)، اللابدانوم (Labdanum)",
       "baseNotes": "الفانيليا (Vanilla)، البنزوين (Benzoin)، خشب الأرز (Cedarwood)",
       "createdAt": "2026-10-26T09:41:55.859Z",
-      "updatedAt": "2026-10-26T09:41:55.859Z",
+      "updatedAt": "2026-10-26T11:20:11.120Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1830,21 +1080,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2hzza003pvm2gwyjfhgnf",
+          "id": "cmvp60cul002xvmt05yewnzkw",
           "productId": "cmvp2hzwy003nvm2gc782e8sz",
           "url": "/uploads/grand soir.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:55.943Z"
+          "createdAt": "2026-10-26T11:20:11.277Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i01d003rvm2g44ja22cs",
+          "id": "cmvp60cyp002zvmt093meyyy5",
           "productId": "cmvp2hzwy003nvm2gc782e8sz",
           "size": "30ml",
           "price": 300,
@@ -1853,7 +1103,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i03d003tvm2grfea9zp7",
+          "id": "cmvp60d0q0031vmt01kh9lglm",
           "productId": "cmvp2hzwy003nvm2gc782e8sz",
           "size": "50ml",
           "price": 450,
@@ -1862,7 +1112,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i05g003vvm2gpwjds86w",
+          "id": "cmvp60d2t0033vmt0x4fgundj",
           "productId": "cmvp2hzwy003nvm2gc782e8sz",
           "size": "100ml",
           "price": 750,
@@ -1895,7 +1145,7 @@
       "heartNotes": "زهر البرتقال (Orange Blossom)، السوسن (Iris)، أوسمانثوس (Osmanthus)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، العنبر (Amber)، الباتشولي (Patchouli)",
       "createdAt": "2026-10-26T09:41:56.250Z",
-      "updatedAt": "2026-10-26T09:41:56.250Z",
+      "updatedAt": "2026-10-26T11:20:11.649Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -1905,21 +1155,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i0a6003zvm2gnzcjrq5v",
+          "id": "cmvp60d990035vmt0e2z90lkr",
           "productId": "cmvp2i07u003xvm2giq9dcye9",
           "url": "/uploads/gucci guilty elixir.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:56.334Z"
+          "createdAt": "2026-10-26T11:20:11.806Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i0c80041vm2gqke4z7vq",
+          "id": "cmvp60dgo0037vmt00lb2c7u8",
           "productId": "cmvp2i07u003xvm2giq9dcye9",
           "size": "30ml",
           "price": 300,
@@ -1928,7 +1178,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i0e90043vm2g0gagf2v6",
+          "id": "cmvp60dir0039vmt0r0dlzz6l",
           "productId": "cmvp2i07u003xvm2giq9dcye9",
           "size": "50ml",
           "price": 450,
@@ -1937,7 +1187,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i0gb0045vm2g81htvvlf",
+          "id": "cmvp60dks003bvmt0qnv91m1t",
           "productId": "cmvp2i07u003xvm2giq9dcye9",
           "size": "100ml",
           "price": 750,
@@ -1970,7 +1220,7 @@
       "heartNotes": "زهر العسل (Honeysuckle)، الياسمين (Jasmine)، الفاوانيا (Peony)",
       "baseNotes": "الفانيليا (Vanilla)، المسك (Musk)، أخشاب عطرية (Woody Notes)",
       "createdAt": "2026-10-26T09:41:56.630Z",
-      "updatedAt": "2026-10-26T09:41:56.630Z",
+      "updatedAt": "2026-10-26T11:20:12.297Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -1980,21 +1230,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i0kq0049vm2g3z82l6b3",
+          "id": "cmvp60dr9003dvmt00kbogoo7",
           "productId": "cmvp2i0id0047vm2gytkcdau8",
           "url": "/uploads/Guess.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:56.715Z"
+          "createdAt": "2026-10-26T11:20:12.454Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i0ms004bvm2g4scnbkdb",
+          "id": "cmvp60dvc003fvmt0nr662uhv",
           "productId": "cmvp2i0id0047vm2gytkcdau8",
           "size": "30ml",
           "price": 250,
@@ -2003,7 +1253,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i0ou004dvm2gx7o481y5",
+          "id": "cmvp60dxe003hvmt024vzg2oq",
           "productId": "cmvp2i0id0047vm2gytkcdau8",
           "size": "50ml",
           "price": 350,
@@ -2012,7 +1262,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i0qv004fvm2gs949h5ct",
+          "id": "cmvp60dzg003jvmt0kdvkc5jk",
           "productId": "cmvp2i0id0047vm2gytkcdau8",
           "size": "100ml",
           "price": 650,
@@ -2045,7 +1295,7 @@
       "heartNotes": "الزعفران (Saffron)، خشب الأرز (Cedarwood)، البرالين (Praline)",
       "baseNotes": "العود النقي (Agarwood Oud)، العنبر (Amber)، الباتشولي (Patchouli)",
       "createdAt": "2026-10-26T09:41:57.011Z",
-      "updatedAt": "2026-10-26T09:41:57.011Z",
+      "updatedAt": "2026-10-26T11:20:12.824Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2055,21 +1305,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i0v0004jvm2gwv735z2q",
+          "id": "cmvp60e5n003lvmt065huyloq",
           "productId": "cmvp2i0sy004hvm2gx0esnia4",
           "url": "/uploads/haltane.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:57.084Z"
+          "createdAt": "2026-10-26T11:20:12.971Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i0x2004lvm2guczdiuo7",
+          "id": "cmvp60e9q003nvmt03ympj8dd",
           "productId": "cmvp2i0sy004hvm2gx0esnia4",
           "size": "30ml",
           "price": 300,
@@ -2078,7 +1328,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i0z3004nvm2gzc0c0pbv",
+          "id": "cmvp60ebr003pvmt09946kxmg",
           "productId": "cmvp2i0sy004hvm2gx0esnia4",
           "size": "50ml",
           "price": 450,
@@ -2087,7 +1337,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i116004pvm2g3zc1su4t",
+          "id": "cmvp60edt003rvmt064ya2l3i",
           "productId": "cmvp2i0sy004hvm2gx0esnia4",
           "size": "100ml",
           "price": 750,
@@ -2120,7 +1370,7 @@
       "heartNotes": "الورد (Rose)، الياسمين (Jasmine)، الزعفران (Saffron)",
       "baseNotes": "العود (Oud)، العنبر (Amber)، الفانيليا (Vanilla)، الجلد (Leather)",
       "createdAt": "2026-10-26T09:41:57.391Z",
-      "updatedAt": "2026-10-26T09:41:57.391Z",
+      "updatedAt": "2026-10-26T11:20:13.341Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -2130,21 +1380,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2i18c004tvm2gn1p8nxe3",
+          "id": "cmvp60eka003tvmt0y01hayob",
           "productId": "cmvp2i13j004rvm2gouzo69wm",
           "url": "/uploads/hibiscus mahajad.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:57.565Z"
+          "createdAt": "2026-10-26T11:20:13.498Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i1ae004vvm2g7f6etr7d",
+          "id": "cmvp60eoe003vvmt0hcnzct7v",
           "productId": "cmvp2i13j004rvm2gouzo69wm",
           "size": "30ml",
           "price": 350,
@@ -2153,7 +1403,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i1cg004xvm2gfue14a3u",
+          "id": "cmvp60eqg003xvmt07wqiqc5o",
           "productId": "cmvp2i13j004rvm2gouzo69wm",
           "size": "50ml",
           "price": 550,
@@ -2162,7 +1412,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i1eh004zvm2gtcx0huk1",
+          "id": "cmvp60esi003zvmt03wj2uwv4",
           "productId": "cmvp2i13j004rvm2gouzo69wm",
           "size": "100ml",
           "price": 1050,
@@ -2195,7 +1445,7 @@
       "heartNotes": "البخور (Incense)، إبرة الراعي (Geranium)، الشوكولاتة الداكنة (Dark Chocolate)",
       "baseNotes": "الفانيليا (Vanilla)، حبوب التونكا (Tonka Bean)، خشب العنبر (Amberwood)",
       "createdAt": "2026-10-26T09:41:57.861Z",
-      "updatedAt": "2026-10-26T09:41:57.861Z",
+      "updatedAt": "2026-10-26T11:20:13.869Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -2205,21 +1455,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i1ix0053vm2gvgo9oewk",
+          "id": "cmvp60f4i0041vmt00qdfv8a1",
           "productId": "cmvp2i1gk0051vm2g2xaf47pu",
           "url": "/uploads/invectus victory.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:57.945Z"
+          "createdAt": "2026-10-26T11:20:14.226Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i1ky0055vm2gh8ln51ef",
+          "id": "cmvp60f8n0043vmt0umlpsts7",
           "productId": "cmvp2i1gk0051vm2g2xaf47pu",
           "size": "30ml",
           "price": 250,
@@ -2228,7 +1478,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i1n00057vm2gnza70nfs",
+          "id": "cmvp60fao0045vmt0egogtmlz",
           "productId": "cmvp2i1gk0051vm2g2xaf47pu",
           "size": "50ml",
           "price": 350,
@@ -2237,7 +1487,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i1p20059vm2gspbc3wbl",
+          "id": "cmvp60fcq0047vmt05gfhfk2s",
           "productId": "cmvp2i1gk0051vm2g2xaf47pu",
           "size": "100ml",
           "price": 650,
@@ -2270,7 +1520,7 @@
       "heartNotes": "الكرز (Cherry)، الياسمين (Jasmine)، الورد (Rose)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، الفانيليا (Vanilla)، الجلد (Leather)",
       "createdAt": "2026-10-26T09:41:58.241Z",
-      "updatedAt": "2026-10-26T09:41:58.241Z",
+      "updatedAt": "2026-10-26T11:20:14.598Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2280,21 +1530,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i1ti005dvm2gir84t7kl",
+          "id": "cmvp60fj70049vmt0hyopd7lw",
           "productId": "cmvp2i1r5005bvm2gm9oyqo0o",
           "url": "/uploads/l,homme edeal.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:58.326Z"
+          "createdAt": "2026-10-26T11:20:14.755Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i1vk005fvm2gqeiegazk",
+          "id": "cmvp60fnb004bvmt0o70ri2kq",
           "productId": "cmvp2i1r5005bvm2gm9oyqo0o",
           "size": "30ml",
           "price": 250,
@@ -2303,7 +1553,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i1xv005hvm2g7j7zxyck",
+          "id": "cmvp60fpc004dvmt0sjeoftvn",
           "productId": "cmvp2i1r5005bvm2gm9oyqo0o",
           "size": "50ml",
           "price": 350,
@@ -2312,7 +1562,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i1zx005jvm2gifehbg5s",
+          "id": "cmvp60fre004fvmt0bwdqot1s",
           "productId": "cmvp2i1r5005bvm2gm9oyqo0o",
           "size": "100ml",
           "price": 650,
@@ -2345,7 +1595,7 @@
       "heartNotes": "البنفسج (Violet)، الياسمين (Jasmine)، إبرة الراعي (Geranium)",
       "baseNotes": "الفانيليا (Vanilla)، حبوب التونكا (Tonka Bean)، خشب الصندل (Sandalwood)",
       "createdAt": "2026-10-26T09:41:58.633Z",
-      "updatedAt": "2026-10-26T09:41:58.633Z",
+      "updatedAt": "2026-10-26T11:20:15.125Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2355,21 +1605,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i26v005nvm2g7mp3f2kx",
+          "id": "cmvp60fxk004hvmt0w35sfxr4",
           "productId": "cmvp2i221005lvm2g7id5spt2",
           "url": "/uploads/layton.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:58.807Z"
+          "createdAt": "2026-10-26T11:20:15.272Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i298005pvm2gd7zyrbaw",
+          "id": "cmvp60g1y004jvmt0bw4hk7t8",
           "productId": "cmvp2i221005lvm2g7id5spt2",
           "size": "30ml",
           "price": 300,
@@ -2378,7 +1628,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i2bk005rvm2ggiugpug7",
+          "id": "cmvp60g40004lvmt0kdfaz83e",
           "productId": "cmvp2i221005lvm2g7id5spt2",
           "size": "50ml",
           "price": 450,
@@ -2387,7 +1637,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i2dl005tvm2g1h5pwlz9",
+          "id": "cmvp60g62004nvmt0xbt0nv6u",
           "productId": "cmvp2i221005lvm2g7id5spt2",
           "size": "100ml",
           "price": 750,
@@ -2420,7 +1670,7 @@
       "heartNotes": "العسل (Honey)، حبوب التونكا (Tonka Bean)، القرفة (Cinnamon)",
       "baseNotes": "الفانيليا (Vanilla)، التبغ (Tobacco)، اللبان الجاوي (Benzoin)",
       "createdAt": "2026-10-26T09:41:59.127Z",
-      "updatedAt": "2026-10-26T09:41:59.127Z",
+      "updatedAt": "2026-10-26T11:20:15.654Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2430,21 +1680,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i2i1005xvm2gsg47985n",
+          "id": "cmvp60gcj004pvmt0otou2ctp",
           "productId": "cmvp2i2fr005vvm2gxmxcj1jq",
           "url": "/uploads/le male elixir.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:59.209Z"
+          "createdAt": "2026-10-26T11:20:15.812Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i2k3005zvm2gwy3w193j",
+          "id": "cmvp60ggn004rvmt03edl29lj",
           "productId": "cmvp2i2fr005vvm2gxmxcj1jq",
           "size": "30ml",
           "price": 300,
@@ -2453,7 +1703,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i2mf0061vm2g8l9ms1f3",
+          "id": "cmvp60gio004tvmt0lggsn2cm",
           "productId": "cmvp2i2fr005vvm2gxmxcj1jq",
           "size": "50ml",
           "price": 450,
@@ -2462,7 +1712,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i2oh0063vm2gkgqcw1fa",
+          "id": "cmvp60gkq004vvmt0gzqabggk",
           "productId": "cmvp2i2fr005vvm2gxmxcj1jq",
           "size": "100ml",
           "price": 750,
@@ -2495,7 +1745,7 @@
       "heartNotes": "القرفة (Cinnamon)، زهر البرتقال (Orange Blossom)، الكراوية (Caraway)",
       "baseNotes": "الفانيليا (Vanilla)، حبوب التونكا (Tonka Bean)، العنبر (Amber)",
       "createdAt": "2026-10-26T09:41:59.517Z",
-      "updatedAt": "2026-10-26T09:41:59.517Z",
+      "updatedAt": "2026-10-26T11:20:16.182Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -2505,21 +1755,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i2sy0067vm2g47xs158x",
+          "id": "cmvp60gtj004xvmt0k2a50w6d",
           "productId": "cmvp2i2ql0065vm2g4fsboo2k",
           "url": "/uploads/le male.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:59.603Z"
+          "createdAt": "2026-10-26T11:20:16.424Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i2v90069vm2guqo7iuy3",
+          "id": "cmvp60gxn004zvmt02jsqrclf",
           "productId": "cmvp2i2ql0065vm2g4fsboo2k",
           "size": "30ml",
           "price": 250,
@@ -2528,7 +1778,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i2xb006bvm2gujq711fs",
+          "id": "cmvp60gzp0051vmt0b0ieaha4",
           "productId": "cmvp2i2ql0065vm2g4fsboo2k",
           "size": "50ml",
           "price": 350,
@@ -2537,7 +1787,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i2zd006dvm2guh03axxx",
+          "id": "cmvp60h1r0053vmt0ae3oxmrb",
           "productId": "cmvp2i2ql0065vm2g4fsboo2k",
           "size": "100ml",
           "price": 650,
@@ -2570,7 +1820,7 @@
       "heartNotes": "الليمون الإصبعي (Finger Lime)، المانجو (Mango)، المارينغ (Meringue)",
       "baseNotes": "المسك (Musk)، خشب الصندل الأسترالي (Australian Sandalwood)، الحليب (Milk)",
       "createdAt": "2026-10-26T09:41:59.908Z",
-      "updatedAt": "2026-10-26T09:41:59.908Z",
+      "updatedAt": "2026-10-26T11:20:16.795Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -2580,21 +1830,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i33i006hvm2gqp1gm451",
+          "id": "cmvp60h880055vmt0kvmwr1jz",
           "productId": "cmvp2i31g006fvm2gkfug1thk",
           "url": "/uploads/Matilda.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:41:59.982Z"
+          "createdAt": "2026-10-26T11:20:16.952Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i35u006jvm2gkkskq54w",
+          "id": "cmvp60hcb0057vmt0iz6leiri",
           "productId": "cmvp2i31g006fvm2gkfug1thk",
           "size": "30ml",
           "price": 300,
@@ -2603,7 +1853,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i37w006lvm2g26vwjw69",
+          "id": "cmvp60hed0059vmt00upk40fy",
           "productId": "cmvp2i31g006fvm2gkfug1thk",
           "size": "50ml",
           "price": 450,
@@ -2612,7 +1862,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i39x006nvm2gyfth3n7i",
+          "id": "cmvp60hgf005bvmt0bp3q4ylc",
           "productId": "cmvp2i31g006fvm2gkfug1thk",
           "size": "100ml",
           "price": 750,
@@ -2645,7 +1895,7 @@
       "heartNotes": "الزعفران (Saffron)، الورد (Rose)، الياسمين (Jasmine)",
       "baseNotes": "الفانيليا (Vanilla)، العنبر (Amber)، خشب الصندل (Sandalwood)، حبوب التونكا (Tonka Bean)",
       "createdAt": "2026-10-26T09:42:00.288Z",
-      "updatedAt": "2026-10-26T09:42:00.288Z",
+      "updatedAt": "2026-10-26T11:20:17.323Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2655,21 +1905,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i3e2006rvm2g0v1pq87u",
+          "id": "cmvp60hmw005dvmt0o038e6re",
           "productId": "cmvp2i3c0006pvm2gohin1lxk",
           "url": "/uploads/noir extreme tom ford.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:00.362Z"
+          "createdAt": "2026-10-26T11:20:17.481Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i3if006tvm2gwnsqo9oy",
+          "id": "cmvp60hr0005fvmt07h70gwo7",
           "productId": "cmvp2i3c0006pvm2gohin1lxk",
           "size": "30ml",
           "price": 300,
@@ -2678,7 +1928,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i3kx006vvm2gskalkvpf",
+          "id": "cmvp60ht1005hvmt01jd1p6rj",
           "productId": "cmvp2i3c0006pvm2gohin1lxk",
           "size": "50ml",
           "price": 450,
@@ -2687,7 +1937,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i3mz006xvm2g4lu1xmhr",
+          "id": "cmvp60hv3005jvmt0csntyt3c",
           "productId": "cmvp2i3c0006pvm2gohin1lxk",
           "size": "100ml",
           "price": 750,
@@ -2720,7 +1970,7 @@
       "heartNotes": "الورد (Rose)، الياسمين (Jasmine)، زنبق الوادي (Lily of the Valley)",
       "baseNotes": "العنبر (Amber)، خشب الصندل (Sandalwood)، المسك (Musk)",
       "createdAt": "2026-10-26T09:42:00.760Z",
-      "updatedAt": "2026-10-26T09:42:00.760Z",
+      "updatedAt": "2026-10-26T11:20:17.851Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -2730,21 +1980,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2i3re0071vm2gbpuougve",
+          "id": "cmvp60i1k005lvmt0kgrgeujs",
           "productId": "cmvp2i3p4006zvm2gkdjg7bho",
           "url": "/uploads/rosendo mateu.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:00.842Z"
+          "createdAt": "2026-10-26T11:20:18.009Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i3tg0073vm2g4e0fmndt",
+          "id": "cmvp60i5z005nvmt0364cmydl",
           "productId": "cmvp2i3p4006zvm2gkdjg7bho",
           "size": "30ml",
           "price": 350,
@@ -2753,7 +2003,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i3vi0075vm2gyeaaacw5",
+          "id": "cmvp60i81005pvmt07od54vx8",
           "productId": "cmvp2i3p4006zvm2gkdjg7bho",
           "size": "50ml",
           "price": 550,
@@ -2762,7 +2012,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i3xv0077vm2g1d9y7zwr",
+          "id": "cmvp60ia3005rvmt0ju4ey6gu",
           "productId": "cmvp2i3p4006zvm2gkdjg7bho",
           "size": "100ml",
           "price": 1050,
@@ -2795,7 +2045,7 @@
       "heartNotes": "الورد (Rose)، الياسمين (Jasmine)",
       "baseNotes": "الفانيليا (Vanilla)، المسك الأبيض (White Musk)، خشب الأرز (Cedarwood)",
       "createdAt": "2026-10-26T09:42:01.161Z",
-      "updatedAt": "2026-10-26T09:42:01.161Z",
+      "updatedAt": "2026-10-26T11:20:18.390Z",
       "category": {
         "id": "cmvnm6t6z0009vm6wpbfeuwxy",
         "name": "Oriental",
@@ -2805,21 +2055,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:17:33.900Z",
-        "updatedAt": "2026-10-25T09:17:33.900Z"
+        "updatedAt": "2026-10-26T11:02:22.997Z"
       },
       "images": [
         {
-          "id": "cmvp2i42l007bvm2gw342s60e",
+          "id": "cmvp60igj005tvmt0rcfxpmwz",
           "productId": "cmvp2i4090079vm2gq2b8ma37",
           "url": "/uploads/Roses vanilla.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:01.245Z"
+          "createdAt": "2026-10-26T11:20:18.548Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i44m007dvm2g2urkuctg",
+          "id": "cmvp60ikn005vvmt0mzs4qltl",
           "productId": "cmvp2i4090079vm2gq2b8ma37",
           "size": "30ml",
           "price": 300,
@@ -2828,7 +2078,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i46o007fvm2gums59wj6",
+          "id": "cmvp60imp005xvmt0e11fowtl",
           "productId": "cmvp2i4090079vm2gq2b8ma37",
           "size": "50ml",
           "price": 450,
@@ -2837,7 +2087,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i48q007hvm2gz5e3xkcv",
+          "id": "cmvp60ior005zvmt0ys9gvosu",
           "productId": "cmvp2i4090079vm2gq2b8ma37",
           "size": "100ml",
           "price": 750,
@@ -2870,7 +2120,7 @@
       "heartNotes": "الروم (Rum)، القرفة (Cinnamon)، الياسمين (Jasmine)",
       "baseNotes": "التبغ (Tobacco)، الفانيليا (Vanilla)، خشب الصندل (Sandalwood)",
       "createdAt": "2026-10-26T09:42:01.541Z",
-      "updatedAt": "2026-10-26T09:42:01.541Z",
+      "updatedAt": "2026-10-26T11:20:18.919Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2880,21 +2130,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i4d5007lvm2gddxayim8",
+          "id": "cmvp60iv80061vmt09hgxyijy",
           "productId": "cmvp2i4at007jvm2g9xy8gq7t",
           "url": "/uploads/side effect.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:01.626Z"
+          "createdAt": "2026-10-26T11:20:19.076Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i4f7007nvm2gvqr76q3y",
+          "id": "cmvp60izb0063vmt0zdhlicqe",
           "productId": "cmvp2i4at007jvm2g9xy8gq7t",
           "size": "30ml",
           "price": 300,
@@ -2903,7 +2153,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i4h9007pvm2g5mh11wlw",
+          "id": "cmvp60j1d0065vmt0f1gy5mzt",
           "productId": "cmvp2i4at007jvm2g9xy8gq7t",
           "size": "50ml",
           "price": 450,
@@ -2912,7 +2162,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i4ja007rvm2ge70hjgdw",
+          "id": "cmvp60j3f0067vmt0hgnqs9bp",
           "productId": "cmvp2i4at007jvm2g9xy8gq7t",
           "size": "100ml",
           "price": 750,
@@ -2945,7 +2195,7 @@
       "heartNotes": "التبغ (Tobacco)، الفانيليا (Vanilla)، المر (Myrrh)",
       "baseNotes": "حبوب التونكا (Tonka Bean)، العنبر (Amber)، خشب الأرز (Cedarwood)",
       "createdAt": "2026-10-26T09:42:01.921Z",
-      "updatedAt": "2026-10-26T09:42:01.921Z",
+      "updatedAt": "2026-10-26T11:20:19.447Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -2955,21 +2205,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i4np007vvm2gbybt9vi3",
+          "id": "cmvp60j9w0069vmt0nbnmpvhh",
           "productId": "cmvp2i4ld007tvm2gjw6eqwhv",
           "url": "/uploads/smoking hot.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:02.006Z"
+          "createdAt": "2026-10-26T11:20:19.604Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i4pr007xvm2g0bdp2ieq",
+          "id": "cmvp60jjb006bvmt0cfafcybh",
           "productId": "cmvp2i4ld007tvm2gjw6eqwhv",
           "size": "30ml",
           "price": 300,
@@ -2978,7 +2228,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i4rt007zvm2gb3ybnska",
+          "id": "cmvp60jld006dvmt08fpzdy78",
           "productId": "cmvp2i4ld007tvm2gjw6eqwhv",
           "size": "50ml",
           "price": 450,
@@ -2987,7 +2237,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i4tv0081vm2gp5eifqnv",
+          "id": "cmvp60jnf006fvmt08rjtpy5b",
           "productId": "cmvp2i4ld007tvm2gjw6eqwhv",
           "size": "100ml",
           "price": 750,
@@ -3020,7 +2270,7 @@
       "heartNotes": "القرفة (Cinnamon)، الفلفل الحار (Chili Pepper)، الزعفران (Saffron)",
       "baseNotes": "التبغ (Tobacco)، الفانيليا (Vanilla)، العنبر (Amber)",
       "createdAt": "2026-10-26T09:42:02.302Z",
-      "updatedAt": "2026-10-26T09:42:02.302Z",
+      "updatedAt": "2026-10-26T11:20:20.166Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -3030,21 +2280,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i4y20085vm2g8hom7r4r",
+          "id": "cmvp60jtv006hvmt0in22ksiy",
           "productId": "cmvp2i4vx0083vm2geo3leli3",
           "url": "/uploads/spicebomb extreme.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:02.378Z"
+          "createdAt": "2026-10-26T11:20:20.324Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i50c0087vm2gm6cjqm4n",
+          "id": "cmvp60jxz006jvmt0q5dqzkmc",
           "productId": "cmvp2i4vx0083vm2geo3leli3",
           "size": "30ml",
           "price": 300,
@@ -3053,7 +2303,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i52e0089vm2gef21e65e",
+          "id": "cmvp60k01006lvmt010rr5t8m",
           "productId": "cmvp2i4vx0083vm2geo3leli3",
           "size": "50ml",
           "price": 450,
@@ -3062,7 +2312,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i54f008bvm2gp20r7fso",
+          "id": "cmvp60k4e006nvmt02y4ysp2k",
           "productId": "cmvp2i4vx0083vm2geo3leli3",
           "size": "100ml",
           "price": 750,
@@ -3095,7 +2345,7 @@
       "heartNotes": "التوفي (Toffee)، القرفة (Cinnamon)، الميرمية (Sage)",
       "baseNotes": "الفانيليا (Vanilla)، العنبر (Amber)، حبوب التونكا (Tonka Bean)",
       "createdAt": "2026-10-26T09:42:02.683Z",
-      "updatedAt": "2026-10-26T09:42:02.683Z",
+      "updatedAt": "2026-10-26T11:20:20.777Z",
       "category": {
         "id": "cmvnlqudc0005vm6wx2paidge",
         "name": "Winter",
@@ -3105,21 +2355,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:08.929Z",
-        "updatedAt": "2026-10-25T09:11:58.299Z"
+        "updatedAt": "2026-10-26T11:02:22.702Z"
       },
       "images": [
         {
-          "id": "cmvp2i58k008fvm2ghgz9i6q9",
+          "id": "cmvp60kau006pvmt00dw3l6wr",
           "productId": "cmvp2i56i008dvm2gg2y2mf0m",
           "url": "/uploads/stronger with u intensely.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:02.756Z"
+          "createdAt": "2026-10-26T11:20:20.935Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i5al008hvm2ggzr7i1rb",
+          "id": "cmvp60key006rvmt0hxxdqoij",
           "productId": "cmvp2i56i008dvm2gg2y2mf0m",
           "size": "30ml",
           "price": 300,
@@ -3128,7 +2378,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i5cn008jvm2g5tvc1t3n",
+          "id": "cmvp60kh0006tvmt0vwfbajbw",
           "productId": "cmvp2i56i008dvm2gg2y2mf0m",
           "size": "50ml",
           "price": 450,
@@ -3137,7 +2387,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i5ep008lvm2gmj6c4ung",
+          "id": "cmvp60kj1006vvmt0me05ivb4",
           "productId": "cmvp2i56i008dvm2gg2y2mf0m",
           "size": "100ml",
           "price": 750,
@@ -3170,7 +2420,7 @@
       "heartNotes": "الخزامى (Lavender)، المريمية (Clary Sage)، الكراوية (Caraway)",
       "baseNotes": "الفانيليا (Vanilla)، حبوب التونكا (Tonka Bean)، العنبر (Amber)",
       "createdAt": "2026-10-26T09:42:03.165Z",
-      "updatedAt": "2026-10-26T09:42:03.165Z",
+      "updatedAt": "2026-10-26T11:20:21.305Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -3180,21 +2430,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i5ma008pvm2g0pdu0vc7",
+          "id": "cmvp60kpi006xvmt0hi97muo4",
           "productId": "cmvp2i5jx008nvm2gu2dzpuw5",
           "url": "/uploads/ultra male.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:03.250Z"
+          "createdAt": "2026-10-26T11:20:21.462Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i5q9008rvm2gt8lr9xu5",
+          "id": "cmvp60ktm006zvmt0mji45dqe",
           "productId": "cmvp2i5jx008nvm2gu2dzpuw5",
           "size": "30ml",
           "price": 250,
@@ -3203,7 +2453,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i5sb008tvm2grrdl5f1p",
+          "id": "cmvp60kvo0071vmt0gtkcddt9",
           "productId": "cmvp2i5jx008nvm2gu2dzpuw5",
           "size": "50ml",
           "price": 350,
@@ -3212,7 +2462,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i5uc008vvm2ghz7l40t9",
+          "id": "cmvp60kxq0073vmt0krqc0p8i",
           "productId": "cmvp2i5jx008nvm2gu2dzpuw5",
           "size": "100ml",
           "price": 650,
@@ -3245,7 +2495,7 @@
       "heartNotes": "الياسمين (Jasmine)، المريمية (Sage)، نجيل الهند (Vetiver)",
       "baseNotes": "الفانيليا (Vanilla)، الكستناء (Chestnut)، خشب الغاياك (Guaiac Wood)",
       "createdAt": "2026-10-26T09:42:03.616Z",
-      "updatedAt": "2026-10-26T09:42:03.616Z",
+      "updatedAt": "2026-10-26T11:20:21.833Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -3255,21 +2505,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i5ys008zvm2gek6jq20n",
+          "id": "cmvp60l4i0075vmt0w5d1rhmm",
           "productId": "cmvp2i5wg008xvm2g14ubo7qm",
           "url": "/uploads/valentino born in roma.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:03.701Z"
+          "createdAt": "2026-10-26T11:20:22.002Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i60v0091vm2gvj5075di",
+          "id": "cmvp60l8l0077vmt056kkity0",
           "productId": "cmvp2i5wg008xvm2g14ubo7qm",
           "size": "30ml",
           "price": 250,
@@ -3278,7 +2528,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i6360093vm2g147j1qab",
+          "id": "cmvp60lan0079vmt0mr5o7mba",
           "productId": "cmvp2i5wg008xvm2g14ubo7qm",
           "size": "50ml",
           "price": 350,
@@ -3287,7 +2537,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i6580095vm2gi6yyff0d",
+          "id": "cmvp60lcp007bvmt05ki84p29",
           "productId": "cmvp2i5wg008xvm2g14ubo7qm",
           "size": "100ml",
           "price": 650,
@@ -3320,7 +2570,7 @@
       "heartNotes": "الياسمين (Jasmine)، زنبق الوادي (Lily of the Valley)، اتفاق فاكهي (Fruity Accord)",
       "baseNotes": "العنبر الأبيض (White Amber)، الفانيليا (Vanilla)، المسك (Musk)",
       "createdAt": "2026-10-26T09:42:04.007Z",
-      "updatedAt": "2026-10-26T09:42:04.007Z",
+      "updatedAt": "2026-10-26T11:20:22.372Z",
       "category": {
         "id": "cmvnlr0m30006vm6w8j4jab96",
         "name": "Summer",
@@ -3330,21 +2580,21 @@
         "displayOrder": 0,
         "isActive": true,
         "createdAt": "2026-10-25T09:05:17.019Z",
-        "updatedAt": "2026-10-25T09:12:05.827Z"
+        "updatedAt": "2026-10-26T11:02:22.775Z"
       },
       "images": [
         {
-          "id": "cmvp2i69o0099vm2g4ops2di2",
+          "id": "cmvp60lj7007dvmt08oup5klj",
           "productId": "cmvp2i67b0097vm2gw1xgnsqz",
           "url": "/uploads/xerjoff erba pura.jpeg",
           "isPrimary": true,
           "order": 0,
-          "createdAt": "2026-10-26T09:42:04.092Z"
+          "createdAt": "2026-10-26T11:20:22.531Z"
         }
       ],
       "sizes": [
         {
-          "id": "cmvp2i6bp009bvm2gxx1dlobb",
+          "id": "cmvp60lnl007fvmt0bvu6p3fh",
           "productId": "cmvp2i67b0097vm2gw1xgnsqz",
           "size": "30ml",
           "price": 350,
@@ -3353,7 +2603,7 @@
           "isDefault": false
         },
         {
-          "id": "cmvp2i6dr009dvm2gh7z7hrvn",
+          "id": "cmvp60lpm007hvmt0lqukypdk",
           "productId": "cmvp2i67b0097vm2gw1xgnsqz",
           "size": "50ml",
           "price": 550,
@@ -3362,7 +2612,7 @@
           "isDefault": true
         },
         {
-          "id": "cmvp2i6ft009fvm2g1ndotug7",
+          "id": "cmvp60lro007jvmt0tonhn89w",
           "productId": "cmvp2i67b0097vm2gw1xgnsqz",
           "size": "100ml",
           "price": 1050,
@@ -3410,7 +2660,7 @@
     "aboutTitle": "VITORIA Haute Parfumerie — Where Scent Becomes Art",
     "aboutSubtitle": "Our Heritage & Philosophy",
     "aboutDescription": "Born from a deep passion for rare perfume oils and timeless elegance, VITORIA creates fragrances of unmatched nobility, longevity, and depth.",
-    "updatedAt": "2026-10-26T10:05:55.312Z"
+    "updatedAt": "2026-10-26T11:02:22.619Z"
   },
   "coupons": []
 }

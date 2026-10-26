@@ -43,7 +43,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const primaryImage =
     product.images?.find((img) => img.isPrimary)?.url ||
     product.images?.[0]?.url ||
-    "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=1000&auto=format&fit=crop";
+    "/uploads/1 million royal.jpeg";
 
   const hoverImage =
     product.images?.[1]?.url || primaryImage;

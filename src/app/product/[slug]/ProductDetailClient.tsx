@@ -36,7 +36,7 @@ export function ProductDetailClient({
 
   const images = product.images && product.images.length > 0
     ? product.images
-    : [{ url: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?q=80&w=1000&auto=format&fit=crop" }];
+    : [{ url: "/uploads/1 million royal.jpeg" }];
 
   const [selectedImage, setSelectedImage] = useState(images[0]?.url);
   const [selectedSize, setSelectedSize] = useState(
