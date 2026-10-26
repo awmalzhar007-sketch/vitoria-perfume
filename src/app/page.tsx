@@ -94,7 +94,9 @@ export default async function HomePage() {
   }
 
   // Guaranteed fallback so the 44 perfumes and categories always display
-  if (!categories || categories.length === 0) {
+  const VALID_SLUGS = ["oriental", "winter", "summer", "best-seller", "bundles"];
+  categories = (categories || []).filter((c: any) => VALID_SLUGS.includes(c.slug));
+  if (categories.length === 0) {
     categories = (fallbackData.categories as any) || [];
   }
   if (!allProducts || allProducts.length === 0) {

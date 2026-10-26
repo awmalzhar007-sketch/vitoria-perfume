@@ -60,12 +60,12 @@ export default function ContactPage() {
                       <h4 className="font-serif font-bold text-sm text-[#0d0d0d]">WhatsApp Concierge</h4>
                       <p className="text-[#736f66] mb-1">Instant assistance 24/7</p>
                       <a
-                        href="https://wa.me/201098765432"
+                        href="https://wa.me/201026673838"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-mono font-bold text-[#8a6820] hover:underline inline-block"
                       >
-                        +20 109 876 5432
+                        +20 102 667 3838
                       </a>
                     </div>
                   </div>
@@ -78,10 +78,10 @@ export default function ContactPage() {
                       <h4 className="font-serif font-bold text-sm text-[#0d0d0d]">Client Direct Line</h4>
                       <p className="text-[#736f66] mb-1">Daily from 10:00 AM to 10:00 PM</p>
                       <a
-                        href="tel:01098765432"
+                        href="tel:0220488620"
                         className="font-mono font-bold text-[#0d0d0d] hover:text-[#c5a253] inline-block"
                       >
-                        01098765432
+                        0220488620
                       </a>
                     </div>
                   </div>

@@ -6,10 +6,10 @@ import { Phone, Mail, MapPin, MessageCircle, ShieldCheck, Truck, RefreshCw, Awar
 
 export function Footer() {
   const [settings, setSettings] = useState<any>({
-    phone: "01098765432",
-    whatsappNumber: "201098765432",
-    email: "contact@vitoria.com",
-    address: "North 90th St, New Cairo, Egypt",
+    phone: "0220488620",
+    whatsappNumber: "01026673838",
+    email: "abdoelssayer@gmail.com",
+    address: "شارع التسعين الشمالي، التجمع الخامس، القاهرة، مصر",
   });
 
   const [categories, setCategories] = useState<any[]>([]);
@@ -104,7 +104,7 @@ export function Footer() {
             </p>
             <div className="pt-2 flex items-center gap-3">
               <a
-                href={`https://wa.me/${(settings.whatsappNumber || "201098765432").replace(/[^0-9]/g, "")}`}
+                href={`https://wa.me/${(settings.whatsappNumber || "01026673838").replace(/[^0-9]/g, "")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#1c1a16] hover:bg-[#c5a253] hover:text-black flex items-center justify-center text-[#d4cfc5] transition-all"
@@ -113,7 +113,7 @@ export function Footer() {
                 <MessageCircle className="w-4 h-4" />
               </a>
               <a
-                href={`tel:${settings.phone || "01098765432"}`}
+                href={`tel:${settings.phone || "0220488620"}`}
                 className="w-9 h-9 rounded-full bg-[#1c1a16] hover:bg-[#c5a253] hover:text-black flex items-center justify-center text-[#d4cfc5] transition-all"
                 aria-label="Phone"
               >
@@ -206,7 +206,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#c5a253] shrink-0" />
-                <span className="font-mono">{settings.phone || "01098765432"}</span>
+                <span className="font-mono">{settings.phone || "0220488620"}</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#c5a253] shrink-0" />

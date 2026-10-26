@@ -106,7 +106,7 @@ export default async function ProductPage({
           <ProductDetailClient
             product={product}
             relatedProducts={relatedProducts}
-            whatsappNumber={settings?.whatsappNumber || "201098765432"}
+            whatsappNumber={settings?.whatsappNumber || "01026673838"}
           />
         </div>
       </main>

@@ -52,7 +52,7 @@ export default async function OrderConfirmationPage({
     notFound();
   }
 
-  const whatsapp = settings?.whatsappNumber || "201098765432";
+  const whatsapp = settings?.whatsappNumber || "201026673838";
   const cleanWhatsapp = whatsapp.replace(/[^0-9]/g, "");
   const whatsappUrl = `https://wa.me/${cleanWhatsapp}?text=${encodeURIComponent(
     `Hello VITORIA, I would like to confirm my order #${order.orderNumber} placed under ${order.customerName}.`

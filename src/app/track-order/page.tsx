@@ -297,7 +297,7 @@ function TrackOrderContent() {
               <div className="pt-4 border-t border-[#f0eee9] flex flex-col sm:flex-row items-center justify-between gap-4">
                 <span className="text-xs text-[#736f66]">Need to reschedule or update delivery address?</span>
                 <a
-                  href={`https://wa.me/201098765432?text=${encodeURIComponent(`Hello VITORIA Concierge, I would like to inquire about my order #${order.orderNumber}`)}`}
+                  href={`https://wa.me/201026673838?text=${encodeURIComponent(`Hello VITORIA Concierge, I would like to inquire about my order #${order.orderNumber}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#85631c] hover:underline"

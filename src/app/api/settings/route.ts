@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getCurrentAdmin } from "@/lib/auth";
+import fallbackData from "@/lib/fallback-data.json";
 
 export const dynamic = "force-dynamic";
 
@@ -11,9 +12,20 @@ export async function GET() {
       where: { id: "default" },
     });
 
-    if (!settings) {
-      settings = await prisma.storeSettings.create({
-        data: { id: "default" },
+    if (!settings || !settings.phone || settings.phone === "01098765432") {
+      const fb = fallbackData.settings as any;
+      const { id, createdAt, updatedAt, ...rest } = fb;
+      settings = await prisma.storeSettings.upsert({
+        where: { id: "default" },
+        update: {
+          phone: "0220488620",
+          whatsappNumber: "01026673838",
+          announcementBarText: "✨ توصيل سريع مجاني للطلبات التي تتجاوز 1000جنيه مصري • عينة فاخرة مجانية مع كل طلب",
+        },
+        create: {
+          id: "default",
+          ...rest,
+        },
       });
     }
 

@@ -33,10 +33,13 @@ export function Navbar() {
     }
   };
 
+  const VALID_SLUGS = ["oriental", "winter", "summer", "best-seller", "bundles"];
+  const displayCategories = categories.filter((c) => VALID_SLUGS.includes(c.slug));
+
   const navLinks = [
     { label: "Home", href: "/" },
     { label: "All Fragrances", href: "/shop" },
-    ...categories.map((cat) => ({
+    ...displayCategories.map((cat) => ({
       label: cat.name,
       href: `/category/${cat.slug}`,
     })),

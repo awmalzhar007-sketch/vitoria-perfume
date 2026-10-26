@@ -3,13 +3,29 @@ import { prisma } from "@/lib/prisma";
 import { getCurrentAdmin } from "@/lib/auth";
 import fallbackData from "@/lib/fallback-data.json";
 
+const VALID_CATEGORY_SLUGS = ["oriental", "winter", "summer", "best-seller", "bundles"];
+
 export async function GET(req: Request) {
   try {
     const { searchParams } = new URL(req.url);
     const includeAll = searchParams.get("all") === "true";
 
+    // Clean up any legacy dummy categories in the database
+    try {
+      await prisma.category.deleteMany({
+        where: {
+          slug: { notIn: VALID_CATEGORY_SLUGS },
+        },
+      });
+    } catch {
+      // ignore
+    }
+
     const categories = await prisma.category.findMany({
-      where: includeAll ? {} : { isActive: true },
+      where: {
+        slug: { in: VALID_CATEGORY_SLUGS },
+        ...(includeAll ? {} : { isActive: true }),
+      },
       include: {
         _count: {
           select: { products: true },
@@ -17,7 +33,8 @@ export async function GET(req: Request) {
       },
       orderBy: { displayOrder: "asc" },
     });
-    let result = categories;
+
+    let result = categories.filter((c) => VALID_CATEGORY_SLUGS.includes(c.slug));
     if (!result || result.length === 0) {
       result = (fallbackData.categories as any) || [];
     }

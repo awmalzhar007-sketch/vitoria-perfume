@@ -4,9 +4,9 @@ import React, { useEffect, useState } from "react";
 import { Sparkles, Phone, MessageCircle } from "lucide-react";
 
 export function AnnouncementBar() {
-  const [text, setText] = useState("✨ Complimentary Express Delivery • Free Luxury Sample with every order");
-  const [whatsapp, setWhatsapp] = useState("201098765432");
-  const [phone, setPhone] = useState("01098765432");
+  const [text, setText] = useState("✨ توصيل سريع مجاني للطلبات التي تتجاوز 1000جنيه مصري • عينة فاخرة مجانية مع كل طلب");
+  const [whatsapp, setWhatsapp] = useState("01026673838");
+  const [phone, setPhone] = useState("0220488620");
   const [show, setShow] = useState(true);
 
   useEffect(() => {
