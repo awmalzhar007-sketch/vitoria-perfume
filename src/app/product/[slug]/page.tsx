@@ -37,6 +37,7 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
 
   let product: any = null;
   let relatedProducts: any[] = [];
@@ -45,6 +46,7 @@ export default async function ProductPage({
   try {
     product = await prisma.product.findFirst({
       where: {
+        slug: { in: VALID_PERFUME_SLUGS },
         OR: [{ slug }, { id: slug }],
       },
       include: {
@@ -60,6 +62,7 @@ export default async function ProductPage({
           categoryId: product.categoryId,
           id: { not: product.id },
           isPublished: true,
+          slug: { in: VALID_PERFUME_SLUGS },
         },
         include: {
           category: true,

@@ -18,6 +18,7 @@ export default async function CategoryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
 
   let category: any = null;
   try {
@@ -25,7 +26,7 @@ export default async function CategoryPage({
       where: { slug },
       include: {
         products: {
-          where: { isPublished: true },
+          where: { isPublished: true, slug: { in: VALID_PERFUME_SLUGS } },
           include: {
             category: true,
             images: { orderBy: { order: "asc" } },
@@ -35,6 +36,9 @@ export default async function CategoryPage({
         },
       },
     });
+    if (category?.products) {
+      category.products = category.products.filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
+    }
   } catch (err) {
     console.error("CategoryPage database error:", err);
   }

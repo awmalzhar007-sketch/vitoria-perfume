@@ -63,6 +63,20 @@ async function main() {
     console.warn("Notice cleaning old categories:", err);
   }
 
+  // 3.5. Purge ALL old products and legacy orders that are not part of the 34 valid perfumes
+  const validProdSlugs = (fallbackData.products as any[]).map((p: any) => p.slug);
+  try {
+    await prisma.productImage.deleteMany({ where: { product: { slug: { notIn: validProdSlugs } } } });
+    await prisma.productSize.deleteMany({ where: { product: { slug: { notIn: validProdSlugs } } } });
+    await prisma.product.deleteMany({ where: { slug: { notIn: validProdSlugs } } });
+    await prisma.orderItem.deleteMany({ where: { order: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } } });
+    await prisma.orderStatusHistory.deleteMany({ where: { order: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } } });
+    await prisma.order.deleteMany({ where: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } });
+    console.log("Purged any legacy products not in 34 valid perfumes.");
+  } catch (err) {
+    console.warn("Notice cleaning old products:", err);
+  }
+
   // 4. Products
   for (const prod of (fallbackData.products as any[])) {
     const { category, images, sizes, createdAt, updatedAt, _count, ...prodData } = prod;
