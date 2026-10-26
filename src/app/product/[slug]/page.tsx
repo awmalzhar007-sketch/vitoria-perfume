@@ -1,6 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
+import fallbackData from "@/lib/fallback-data.json";
 import { AnnouncementBar } from "@/components/storefront/AnnouncementBar";
 import { Navbar } from "@/components/storefront/Navbar";
 import { Footer } from "@/components/storefront/Footer";
@@ -75,6 +76,19 @@ export default async function ProductPage({
     }
   } catch (err) {
     console.error("ProductPage database error:", err);
+  }
+
+  // Fallback to static data if not found in db
+  if (!product) {
+    product = (fallbackData.products as any[]).find(
+      (p: any) => p.slug === slug || p.id === slug
+    );
+    if (product) {
+      relatedProducts = (fallbackData.products as any[])
+        .filter((p: any) => p.categoryId === product.categoryId && p.id !== product.id)
+        .slice(0, 4);
+      settings = fallbackData.settings as any;
+    }
   }
 
   if (!product) {

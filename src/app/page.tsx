@@ -6,6 +6,7 @@ import { Footer } from "@/components/storefront/Footer";
 import { CartDrawer } from "@/components/storefront/CartDrawer";
 import { ProductCard } from "@/components/storefront/ProductCard";
 import { prisma } from "@/lib/prisma";
+import fallbackData from "@/lib/fallback-data.json";
 import {
   ArrowRight,
   Sparkles,
@@ -90,6 +91,22 @@ export default async function HomePage() {
     activeCoupon = data[5] || null;
   } catch (err) {
     console.error("HomePage database query error:", err);
+  }
+
+  // Guaranteed fallback so the 44 perfumes and categories always display
+  if (!categories || categories.length === 0) {
+    categories = (fallbackData.categories as any) || [];
+  }
+  if (!allProducts || allProducts.length === 0) {
+    allProducts = (fallbackData.products as any) || [];
+    featuredProducts = allProducts.filter((p: any) => p.isFeatured).slice(0, 4);
+    bestsellers = allProducts.filter((p: any) => p.isBestseller).slice(0, 4);
+  }
+  if (!settings) {
+    settings = fallbackData.settings as any;
+  }
+  if (!activeCoupon) {
+    activeCoupon = (fallbackData.coupons?.[0] as any) || null;
   }
 
   return (

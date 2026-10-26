@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getCurrentAdmin } from "@/lib/auth";
+import fallbackData from "@/lib/fallback-data.json";
 
 export async function GET(req: Request) {
   try {
@@ -16,13 +17,14 @@ export async function GET(req: Request) {
       },
       orderBy: { displayOrder: "asc" },
     });
-    return NextResponse.json({ categories });
+    let result = categories;
+    if (!result || result.length === 0) {
+      result = (fallbackData.categories as any) || [];
+    }
+    return NextResponse.json({ categories: result });
   } catch (error) {
     console.error("Categories GET error:", error);
-    return NextResponse.json(
-      { error: "حدث خطأ أثناء جلب الأقسام" },
-      { status: 500 }
-    );
+    return NextResponse.json({ categories: (fallbackData.categories as any) || [] });
   }
 }
 

@@ -7,6 +7,7 @@ import { Footer } from "@/components/storefront/Footer";
 import { CartDrawer } from "@/components/storefront/CartDrawer";
 import { ProductCard } from "@/components/storefront/ProductCard";
 import { prisma } from "@/lib/prisma";
+import fallbackData from "@/lib/fallback-data.json";
 import { ArrowRight, ChevronRight } from "lucide-react";
 
 export const dynamic = "force-dynamic";
@@ -36,6 +37,18 @@ export default async function CategoryPage({
     });
   } catch (err) {
     console.error("CategoryPage database error:", err);
+  }
+
+  if (!category) {
+    const fallbackCat = (fallbackData.categories as any[]).find(
+      (c: any) => c.slug === slug
+    );
+    if (fallbackCat) {
+      const catProducts = (fallbackData.products as any[]).filter(
+        (p: any) => p.categoryId === fallbackCat.id
+      );
+      category = { ...fallbackCat, products: catProducts };
+    }
   }
 
   if (!category) {
