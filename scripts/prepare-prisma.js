@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const schemaPath = path.join(__dirname, "..", "prisma", "schema.prisma");
 let content = fs.readFileSync(schemaPath, "utf-8");
@@ -21,6 +22,18 @@ if (fs.existsSync(envPath)) {
   }
 }
 
+// Fallback to Vercel Postgres environment variables if DATABASE_URL is not explicitly set
+if (!process.env.DATABASE_URL) {
+  const vercelDb =
+    process.env.POSTGRES_PRISMA_URL ||
+    process.env.POSTGRES_URL ||
+    process.env.PRISMA_DATABASE_URL;
+  if (vercelDb) {
+    process.env.DATABASE_URL = vercelDb;
+    console.log("[prisma-adapter] Adopted Vercel Postgres URL for DATABASE_URL");
+  }
+}
+
 const dbUrl = process.env.DATABASE_URL || "file:./dev.db";
 const targetProvider = (dbUrl.startsWith("postgres://") || dbUrl.startsWith("postgresql://"))
   ? "postgresql"
@@ -38,4 +51,16 @@ if (currentProvider !== targetProvider) {
   console.log(`[prisma-adapter] Switched schema datasource provider to: ${targetProvider}`);
 } else {
   console.log(`[prisma-adapter] Datasource provider is already: ${targetProvider}`);
+}
+
+// If using cloud postgresql during build on Vercel, push schema automatically
+if (targetProvider === "postgresql" && process.env.VERCEL) {
+  try {
+    console.log("[prisma-adapter] Cloud database detected on Vercel. Pushing schema...");
+    execSync("npx prisma db push --accept-data-loss", { stdio: "inherit" });
+    console.log("[prisma-adapter] Seeding database...");
+    execSync("npx tsx prisma/seed.ts", { stdio: "inherit" });
+  } catch (err) {
+    console.warn("[prisma-adapter] Auto-push/seed notice:", err.message);
+  }
 }

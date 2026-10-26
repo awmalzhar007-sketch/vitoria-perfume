@@ -41,6 +41,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Local SQLite database
-/prisma/dev.db
+# Local SQLite database (tracked so Vercel has initial data if no cloud db is linked)
+# /prisma/dev.db
 /prisma/dev.db-journal

@@ -37,40 +37,49 @@ export default async function ProductPage({
 }) {
   const { slug } = await params;
 
-  const product = await prisma.product.findFirst({
-    where: {
-      OR: [{ slug }, { id: slug }],
-    },
-    include: {
-      category: true,
-      images: { orderBy: { order: "asc" } },
-      sizes: true,
-    },
-  });
+  let product: any = null;
+  let relatedProducts: any[] = [];
+  let settings: any = null;
+
+  try {
+    product = await prisma.product.findFirst({
+      where: {
+        OR: [{ slug }, { id: slug }],
+      },
+      include: {
+        category: true,
+        images: { orderBy: { order: "asc" } },
+        sizes: true,
+      },
+    });
+
+    if (product) {
+      relatedProducts = await prisma.product.findMany({
+        where: {
+          categoryId: product.categoryId,
+          id: { not: product.id },
+          isPublished: true,
+        },
+        include: {
+          category: true,
+          images: { orderBy: { order: "asc" } },
+          sizes: true,
+        },
+        take: 4,
+      });
+
+      settings = await prisma.storeSettings.findUnique({
+        where: { id: "default" },
+        select: { whatsappNumber: true },
+      });
+    }
+  } catch (err) {
+    console.error("ProductPage database error:", err);
+  }
 
   if (!product) {
     notFound();
   }
-
-  // Fetch related products from same category
-  const relatedProducts = await prisma.product.findMany({
-    where: {
-      categoryId: product.categoryId,
-      id: { not: product.id },
-      isPublished: true,
-    },
-    include: {
-      category: true,
-      images: { orderBy: { order: "asc" } },
-      sizes: true,
-    },
-    take: 4,
-  });
-
-  const settings = await prisma.storeSettings.findUnique({
-    where: { id: "default" },
-    select: { whatsappNumber: true },
-  });
 
   return (
     <div className="min-h-screen bg-white flex flex-col">

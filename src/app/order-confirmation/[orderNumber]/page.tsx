@@ -26,22 +26,31 @@ export default async function OrderConfirmationPage({
 }) {
   const { orderNumber } = await params;
 
-  const order = await prisma.order.findUnique({
-    where: { orderNumber },
-    include: {
-      items: true,
-      statusHistory: { orderBy: { createdAt: "desc" } },
-    },
-  });
+  let order: any = null;
+  let settings: any = null;
+
+  try {
+    order = await prisma.order.findUnique({
+      where: { orderNumber },
+      include: {
+        items: true,
+        statusHistory: { orderBy: { createdAt: "desc" } },
+      },
+    });
+
+    if (order) {
+      settings = await prisma.storeSettings.findUnique({
+        where: { id: "default" },
+        select: { whatsappNumber: true, phone: true },
+      });
+    }
+  } catch (err) {
+    console.error("OrderConfirmationPage database error:", err);
+  }
 
   if (!order) {
     notFound();
   }
-
-  const settings = await prisma.storeSettings.findUnique({
-    where: { id: "default" },
-    select: { whatsappNumber: true, phone: true },
-  });
 
   const whatsapp = settings?.whatsappNumber || "201098765432";
   const cleanWhatsapp = whatsapp.replace(/[^0-9]/g, "");
@@ -153,7 +162,7 @@ export default async function OrderConfirmationPage({
             <div>
               <h3 className="font-serif font-bold text-base text-[#0d0d0d] mb-4">Curated Fragrances:</h3>
               <div className="border border-[#e8e6e1] divide-y divide-[#ece9e2]">
-                {order.items.map((item) => (
+                {order.items.map((item: any) => (
                   <div key={item.id} className="p-4 flex items-center justify-between text-xs">
                     <div className="flex items-center gap-3.5">
                       {item.productImage && (

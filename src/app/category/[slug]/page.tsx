@@ -18,20 +18,25 @@ export default async function CategoryPage({
 }) {
   const { slug } = await params;
 
-  const category = await prisma.category.findUnique({
-    where: { slug },
-    include: {
-      products: {
-        where: { isPublished: true },
-        include: {
-          category: true,
-          images: { orderBy: { order: "asc" } },
-          sizes: true,
+  let category: any = null;
+  try {
+    category = await prisma.category.findUnique({
+      where: { slug },
+      include: {
+        products: {
+          where: { isPublished: true },
+          include: {
+            category: true,
+            images: { orderBy: { order: "asc" } },
+            sizes: true,
+          },
+          orderBy: { createdAt: "desc" },
         },
-        orderBy: { createdAt: "desc" },
       },
-    },
-  });
+    });
+  } catch (err) {
+    console.error("CategoryPage database error:", err);
+  }
 
   if (!category) {
     notFound();
@@ -104,7 +109,7 @@ export default async function CategoryPage({
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {category.products.map((product) => (
+              {category.products.map((product: any) => (
                 <ProductCard key={product.id} product={product as any} />
               ))}
             </div>

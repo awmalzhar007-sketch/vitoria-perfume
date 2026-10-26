@@ -22,57 +22,75 @@ import {
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
-  // Fetch real data from persistent database
-  const [categories, featuredProducts, bestsellers, allProducts, settings, activeCoupon] = await Promise.all([
-    prisma.category.findMany({
-      where: { isActive: true },
-      orderBy: { displayOrder: "asc" },
-      include: {
-        _count: { select: { products: true } },
-      },
-    }),
-    prisma.product.findMany({
-      where: { isPublished: true, isFeatured: true },
-      include: {
-        category: true,
-        images: { orderBy: { order: "asc" } },
-        sizes: true,
-      },
-      take: 4,
-    }),
-    prisma.product.findMany({
-      where: { isPublished: true, isBestseller: true },
-      include: {
-        category: true,
-        images: { orderBy: { order: "asc" } },
-        sizes: true,
-      },
-      take: 4,
-    }),
-    prisma.product.findMany({
-      where: { isPublished: true },
-      include: {
-        category: true,
-        images: { orderBy: { order: "asc" } },
-        sizes: true,
-      },
-      orderBy: { createdAt: "desc" },
-      take: 8,
-    }),
-    prisma.storeSettings.findUnique({
-      where: { id: "default" },
-    }),
-    prisma.coupon.findFirst({
-      where: {
-        isActive: true,
-        OR: [
-          { expiresAt: null },
-          { expiresAt: { gt: new Date() } },
-        ],
-      },
-      orderBy: { createdAt: "desc" },
-    }),
-  ]);
+  // Fetch real data from persistent database with safe fallback
+  let categories: any[] = [];
+  let featuredProducts: any[] = [];
+  let bestsellers: any[] = [];
+  let allProducts: any[] = [];
+  let settings: any = null;
+  let activeCoupon: any = null;
+
+  try {
+    const data = await Promise.all([
+      prisma.category.findMany({
+        where: { isActive: true },
+        orderBy: { displayOrder: "asc" },
+        include: {
+          _count: { select: { products: true } },
+        },
+      }),
+      prisma.product.findMany({
+        where: { isPublished: true, isFeatured: true },
+        include: {
+          category: true,
+          images: { orderBy: { order: "asc" } },
+          sizes: true,
+        },
+        take: 4,
+      }),
+      prisma.product.findMany({
+        where: { isPublished: true, isBestseller: true },
+        include: {
+          category: true,
+          images: { orderBy: { order: "asc" } },
+          sizes: true,
+        },
+        take: 4,
+      }),
+      prisma.product.findMany({
+        where: { isPublished: true },
+        include: {
+          category: true,
+          images: { orderBy: { order: "asc" } },
+          sizes: true,
+        },
+        orderBy: { createdAt: "desc" },
+        take: 8,
+      }),
+      prisma.storeSettings.findUnique({
+        where: { id: "default" },
+      }),
+      prisma.coupon.findFirst({
+        where: {
+          isActive: true,
+          OR: [
+            { expiresAt: null },
+            { expiresAt: { gt: new Date() } },
+          ],
+        },
+        orderBy: { createdAt: "desc" },
+      }),
+    ]);
+
+    categories = data[0] || [];
+    featuredProducts = data[1] || [];
+    bestsellers = data[2] || [];
+    allProducts = data[3] || [];
+    settings = data[4] || null;
+    activeCoupon = data[5] || null;
+  } catch (err) {
+    console.error("HomePage database query error:", err);
+  }
 
   return (
     <div className="min-h-screen bg-[#faf9f6] flex flex-col selection:bg-[#c5a253]/20">

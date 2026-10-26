@@ -14,9 +14,14 @@ export const metadata = {
 };
 
 export default async function AboutPage() {
-  const settings = await prisma.storeSettings.findUnique({
-    where: { id: "default" },
-  });
+  let settings: any = null;
+  try {
+    settings = await prisma.storeSettings.findUnique({
+      where: { id: "default" },
+    });
+  } catch (err) {
+    console.error("AboutPage database error:", err);
+  }
 
   return (
     <div className="min-h-screen bg-[#faf9f6] flex flex-col selection:bg-[#c5a253]/20">
