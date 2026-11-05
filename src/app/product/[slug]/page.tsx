@@ -44,16 +44,6 @@ export default async function ProductPage({
     "imperial-amber-supreme",
     "sovereign-leather",
     "discovery-set-prestige",
-    "stellar-times",
-    "tobacco-vanille",
-    "la-capitale",
-    "nishane-ani",
-    "dior-homme-intense",
-    "black-orchid",
-    "black-mango",
-    "black-afgano",
-    "angels-share-on-the-rocks",
-    "naxos",
   ];
 
   if (LEGACY_DUMMY_SLUGS.includes(slug)) {
