@@ -48,31 +48,37 @@ export async function POST(req: Request) {
       });
     }
 
-    if (process.env.VERCEL === "1") {
-      return NextResponse.json(
-        {
-          error:
-            "لم يتم تكوين Vercel Blob. يرجى إضافة متجر Vercel Blob وربط BLOB_READ_WRITE_TOKEN في إعدادات المشروع على Vercel.",
-        },
-        { status: 500 }
-      );
-    }
-
-    // Local filesystem fallback
-    const { promises: fs } = await import("fs");
+    // Fallback: If Vercel Blob token is not configured, encode image as base64 data URL
+    // so images can be saved and displayed without throwing error 500
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
-    const uniqueSuffix = `${Date.now()}-${Math.random().toString(36).substring(2, 8)}`;
-    const fileName = `${baseName}-${uniqueSuffix}${ext}`;
-    const uploadDir = path.join(process.cwd(), "public", "uploads");
+    const mimeType = file.type || "image/jpeg";
+    const dataUrl = `data:${mimeType};base64,${buffer.toString("base64")}`;
 
-    await fs.mkdir(uploadDir, { recursive: true });
-    await fs.writeFile(path.join(uploadDir, fileName), buffer);
+    // Also attempt writing to filesystem for local development
+    try {
+      const { promises: fs } = await import("fs");
+      const uniqueSuffix = `${Date.now()}-${Math.random().toString(36).substring(2, 8)}`;
+      const fileName = `${baseName}-${uniqueSuffix}${ext}`;
+      const uploadDir = path.join(process.cwd(), "public", "uploads");
+      await fs.mkdir(uploadDir, { recursive: true });
+      await fs.writeFile(path.join(uploadDir, fileName), buffer);
+
+      if (process.env.VERCEL !== "1") {
+        return NextResponse.json({
+          success: true,
+          url: `/uploads/${fileName}`,
+          fileName,
+        });
+      }
+    } catch {
+      // Serverless readonly fallback
+    }
 
     return NextResponse.json({
       success: true,
-      url: `/uploads/${fileName}`,
-      fileName,
+      url: dataUrl,
+      fileName: `${baseName}${ext}`,
     });
   } catch (error) {
     console.error("Upload error:", error);

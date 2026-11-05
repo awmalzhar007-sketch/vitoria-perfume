@@ -31,7 +31,24 @@ export default async function HomePage() {
   let settings: any = null;
   let activeCoupon: any = null;
 
-  const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
+  const LEGACY_DUMMY_SLUGS = [
+    "royal-oud-sultan",
+    "rose-noire-elixir",
+    "pure-musk-blanche",
+    "imperial-amber-supreme",
+    "sovereign-leather",
+    "discovery-set-prestige",
+    "stellar-times",
+    "tobacco-vanille",
+    "la-capitale",
+    "nishane-ani",
+    "dior-homme-intense",
+    "black-orchid",
+    "black-mango",
+    "black-afgano",
+    "angels-share-on-the-rocks",
+    "naxos",
+  ];
 
   try {
     const data = await Promise.all([
@@ -43,7 +60,7 @@ export default async function HomePage() {
         },
       }),
       prisma.product.findMany({
-        where: { isPublished: true, isFeatured: true, slug: { in: VALID_PERFUME_SLUGS } },
+        where: { isPublished: true, isFeatured: true, slug: { notIn: LEGACY_DUMMY_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -52,7 +69,7 @@ export default async function HomePage() {
         take: 4,
       }),
       prisma.product.findMany({
-        where: { isPublished: true, isBestseller: true, slug: { in: VALID_PERFUME_SLUGS } },
+        where: { isPublished: true, isBestseller: true, slug: { notIn: LEGACY_DUMMY_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -61,7 +78,7 @@ export default async function HomePage() {
         take: 4,
       }),
       prisma.product.findMany({
-        where: { isPublished: true, slug: { in: VALID_PERFUME_SLUGS } },
+        where: { isPublished: true, slug: { notIn: LEGACY_DUMMY_SLUGS } },
         include: {
           category: true,
           images: { orderBy: { order: "asc" } },
@@ -86,9 +103,9 @@ export default async function HomePage() {
     ]);
 
     categories = data[0] || [];
-    featuredProducts = (data[1] || []).filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
-    bestsellers = (data[2] || []).filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
-    allProducts = (data[3] || []).filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
+    featuredProducts = (data[1] || []).filter((p: any) => !LEGACY_DUMMY_SLUGS.includes(p.slug));
+    bestsellers = (data[2] || []).filter((p: any) => !LEGACY_DUMMY_SLUGS.includes(p.slug));
+    allProducts = (data[3] || []).filter((p: any) => !LEGACY_DUMMY_SLUGS.includes(p.slug));
     settings = data[4] || null;
     activeCoupon = data[5] || null;
   } catch (err) {

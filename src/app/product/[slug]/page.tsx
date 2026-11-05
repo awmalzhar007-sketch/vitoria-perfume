@@ -37,7 +37,28 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
+  const LEGACY_DUMMY_SLUGS = [
+    "royal-oud-sultan",
+    "rose-noire-elixir",
+    "pure-musk-blanche",
+    "imperial-amber-supreme",
+    "sovereign-leather",
+    "discovery-set-prestige",
+    "stellar-times",
+    "tobacco-vanille",
+    "la-capitale",
+    "nishane-ani",
+    "dior-homme-intense",
+    "black-orchid",
+    "black-mango",
+    "black-afgano",
+    "angels-share-on-the-rocks",
+    "naxos",
+  ];
+
+  if (LEGACY_DUMMY_SLUGS.includes(slug)) {
+    notFound();
+  }
 
   let product: any = null;
   let relatedProducts: any[] = [];
@@ -46,7 +67,7 @@ export default async function ProductPage({
   try {
     product = await prisma.product.findFirst({
       where: {
-        slug: { in: VALID_PERFUME_SLUGS },
+        slug: { notIn: LEGACY_DUMMY_SLUGS },
         OR: [{ slug }, { id: slug }],
       },
       include: {
@@ -62,7 +83,7 @@ export default async function ProductPage({
           categoryId: product.categoryId,
           id: { not: product.id },
           isPublished: true,
-          slug: { in: VALID_PERFUME_SLUGS },
+          slug: { notIn: LEGACY_DUMMY_SLUGS },
         },
         include: {
           category: true,

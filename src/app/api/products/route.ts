@@ -14,18 +14,36 @@ export async function GET(req: Request) {
     const newArrival = searchParams.get("new");
     const publishedOnly = searchParams.get("admin") !== "true";
 
-    const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
+    const LEGACY_DUMMY_SLUGS = [
+      "royal-oud-sultan",
+      "rose-noire-elixir",
+      "pure-musk-blanche",
+      "imperial-amber-supreme",
+      "sovereign-leather",
+      "discovery-set-prestige",
+      "stellar-times",
+      "tobacco-vanille",
+      "la-capitale",
+      "nishane-ani",
+      "dior-homme-intense",
+      "black-orchid",
+      "black-mango",
+      "black-afgano",
+      "angels-share-on-the-rocks",
+      "naxos",
+    ];
+
     try {
-      await prisma.productImage.deleteMany({ where: { product: { slug: { notIn: VALID_PERFUME_SLUGS } } } });
-      await prisma.productSize.deleteMany({ where: { product: { slug: { notIn: VALID_PERFUME_SLUGS } } } });
-      await prisma.product.deleteMany({ where: { slug: { notIn: VALID_PERFUME_SLUGS } } });
+      await prisma.productImage.deleteMany({ where: { product: { slug: { in: LEGACY_DUMMY_SLUGS } } } });
+      await prisma.productSize.deleteMany({ where: { product: { slug: { in: LEGACY_DUMMY_SLUGS } } } });
+      await prisma.product.deleteMany({ where: { slug: { in: LEGACY_DUMMY_SLUGS } } });
       await prisma.orderItem.deleteMany({ where: { order: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } } });
       await prisma.orderStatusHistory.deleteMany({ where: { order: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } } });
       await prisma.order.deleteMany({ where: { orderNumber: { in: ["ORD-2025-1001", "ORD-2025-1002"] } } });
     } catch {}
 
     const where: any = {
-      slug: { in: VALID_PERFUME_SLUGS },
+      slug: { notIn: LEGACY_DUMMY_SLUGS },
     };
 
     if (publishedOnly) {
@@ -97,7 +115,7 @@ export async function GET(req: Request) {
       }
     }
 
-    result = result.filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
+    result = result.filter((p: any) => !LEGACY_DUMMY_SLUGS.includes(p.slug));
 
     return NextResponse.json({ products: result });
   } catch (error) {

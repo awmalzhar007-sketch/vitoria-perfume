@@ -18,7 +18,24 @@ export default async function CategoryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const VALID_PERFUME_SLUGS = (fallbackData.products as any[]).map((p: any) => p.slug);
+  const LEGACY_DUMMY_SLUGS = [
+    "royal-oud-sultan",
+    "rose-noire-elixir",
+    "pure-musk-blanche",
+    "imperial-amber-supreme",
+    "sovereign-leather",
+    "discovery-set-prestige",
+    "stellar-times",
+    "tobacco-vanille",
+    "la-capitale",
+    "nishane-ani",
+    "dior-homme-intense",
+    "black-orchid",
+    "black-mango",
+    "black-afgano",
+    "angels-share-on-the-rocks",
+    "naxos",
+  ];
 
   let category: any = null;
   try {
@@ -26,7 +43,7 @@ export default async function CategoryPage({
       where: { slug },
       include: {
         products: {
-          where: { isPublished: true, slug: { in: VALID_PERFUME_SLUGS } },
+          where: { isPublished: true, slug: { notIn: LEGACY_DUMMY_SLUGS } },
           include: {
             category: true,
             images: { orderBy: { order: "asc" } },
@@ -37,7 +54,7 @@ export default async function CategoryPage({
       },
     });
     if (category?.products) {
-      category.products = category.products.filter((p: any) => VALID_PERFUME_SLUGS.includes(p.slug));
+      category.products = category.products.filter((p: any) => !LEGACY_DUMMY_SLUGS.includes(p.slug));
     }
   } catch (err) {
     console.error("CategoryPage database error:", err);
