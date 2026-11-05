@@ -156,6 +156,20 @@ export async function POST(req: Request) {
       counter++;
     }
 
+    // Resolve valid categoryId (supports slug or id)
+    let categoryId = data.categoryId;
+    const catCheck = await prisma.category.findFirst({
+      where: {
+        OR: [{ id: categoryId }, { slug: categoryId }],
+      },
+    });
+    if (catCheck) {
+      categoryId = catCheck.id;
+    } else {
+      const defaultCat = await prisma.category.findFirst();
+      if (defaultCat) categoryId = defaultCat.id;
+    }
+
     const product = await prisma.product.create({
       data: {
         name: data.name,
@@ -163,9 +177,9 @@ export async function POST(req: Request) {
         slug: uniqueSlug,
         description: data.description,
         shortDescription: data.shortDescription || null,
-        price: parseFloat(data.price),
+        price: parseFloat(data.price) || 0,
         originalPrice: data.originalPrice ? parseFloat(data.originalPrice) : null,
-        categoryId: data.categoryId,
+        categoryId: categoryId,
         concentration: data.concentration || "Eau de Parfum (EDP)",
         inspiration: data.inspiration || null,
         brandCollection: data.brandCollection || null,
@@ -188,8 +202,8 @@ export async function POST(req: Request) {
         sizes: {
           create: (data.sizes && data.sizes.length > 0)
             ? data.sizes.map((sz: any, idx: number) => ({
-                size: sz.size,
-                price: parseFloat(sz.price),
+                size: sz.size || "50ml",
+                price: parseFloat(sz.price) || parseFloat(data.price) || 0,
                 originalPrice: sz.originalPrice ? parseFloat(sz.originalPrice) : null,
                 stock: parseInt(sz.stock || "10", 10),
                 isDefault: idx === 0 || sz.isDefault === true,
@@ -197,7 +211,7 @@ export async function POST(req: Request) {
             : [
                 {
                   size: "100ml",
-                  price: parseFloat(data.price),
+                  price: parseFloat(data.price) || 0,
                   originalPrice: data.originalPrice ? parseFloat(data.originalPrice) : null,
                   stock: parseInt(data.stockQuantity || "10", 10),
                   isDefault: true,
@@ -213,10 +227,10 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ success: true, product });
-  } catch (error) {
+  } catch (error: any) {
     console.error("Products POST error:", error);
     return NextResponse.json(
-      { error: "حدث خطأ أثناء إضافة العطر" },
+      { error: error?.message || "حدث خطأ أثناء إضافة العطر" },
       { status: 500 }
     );
   }
